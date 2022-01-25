@@ -10,12 +10,14 @@ Acá voy a dejar todas las actividades del curso de ingreso a la **Tecnicatura U
 
 [Lo visto para MATEMATICA](https://eugenia1984.github.io/UTNFRSR-ingreso/matematica)
 
+- clase 1 : lógica proposicional
+
 
 [Lo visto para PROGRAMACION](https://eugenia1984.github.io/UTNFRSR-ingreso/programacion):
 
 - clase 1 : Variables
 
-- Algoritmo y programación
+- clase 2: elementos de entorno de algoritmo y programación
 
 - Ciclos: condicionales y condicionales múltiples
 
