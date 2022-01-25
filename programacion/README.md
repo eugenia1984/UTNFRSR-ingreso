@@ -1,8 +1,8 @@
 # Programacion
 
-- clase 1 : variables ( declaración, asignación, lectura, escritura)
+- [clase 1 : variables : declaración, asignación, lectura, escritura.](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase1)
 
-- clase 2 : elementos de entorno de algoritmo y programación
+- [clase 2 : elementos de entorno de algoritmo y programación.](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase2)
 
 - clase 3:
 
