@@ -1,12 +1,38 @@
-# UTN FRSR - Tecnicatura Univesitaria en Programación : curso de ingreso
+# UTN FRSR - Tecnicatura Universitaria en Programación : curso de ingreso
 
 Acá voy a dejar todas las actividades del curso de ingreso a la **Tecnicatura Universitaria en programación** de **Universidad Tecnológica nacional** sede **San Rafael**, Mendoza.
+
+:book: [Podés ver el proyecto del curso acá](https://eugenia1984.github.io/UTNFRSR-ingreso/)
+
+---
+
+## ¿ Qué hay ?
+
+[Lo visto para MATEMATICA](https://eugenia1984.github.io/UTNFRSR-ingreso/matematica)
+
+
+[Lo visto para PROGRAMACION](https://eugenia1984.github.io/UTNFRSR-ingreso/programacion):
+
+- clase 1 : Variables
+
+- Algoritmo y programación
+
+- Ciclos: condicionales y condicionales múltiples
+
+- Diagrama de flujo y N-S
+
+- Arreglos Unidimensionales
+
+- Ordenamiento
+
+---
 
 ## Stack teconológico 🛠️
 
 **PseInt**
 
-[Podés ver el proyecto del curso acá](https://eugenia1984.github.io/UTNFRSR-ingreso/)
+---
+
 
 ## Por favor: 🎁
 
@@ -15,6 +41,7 @@ Acá voy a dejar todas las actividades del curso de ingreso a la **Tecnicatura U
 - Invita una cerveza 🍺 o un café ☕ a alguien del equipo
 
 - Muchas gracias 🤓.
+
 
 ## Notas: 
 
