@@ -19,9 +19,15 @@ Acá voy a dejar todas las actividades del curso de ingreso a la **Tecnicatura U
 
 - clase 2: elementos de entorno de algoritmo y programación
 
-- Ciclos: condicionales y condicionales múltiples
+clase 1 : variables : declaración, asignación, lectura, escritura.
 
-- Diagrama de flujo y N-S
+clase 2 : elementos de entorno de algoritmo y programación.
+
+clase 3: identificadores- variables y constantes-
+
+clase 4:  condicionales. Diagrama de flujo y N-S
+
+clase 5: condicionales múltiples. Diagrama de flujo y N-S
 
 - Arreglos Unidimensionales
 
