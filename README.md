@@ -15,19 +15,15 @@ Acá voy a dejar todas las actividades del curso de ingreso a la **Tecnicatura U
 
 [Lo visto para PROGRAMACION](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion):
 
-- clase 1 : Variables
+- clase 1 : variables : declaración, asignación, lectura, escritura.
 
-- clase 2: elementos de entorno de algoritmo y programación
+- clase 2 : elementos de entorno de algoritmo y programación.
 
-clase 1 : variables : declaración, asignación, lectura, escritura.
+- clase 3: identificadores : variables y constantes.
 
-clase 2 : elementos de entorno de algoritmo y programación.
+- clase 4:  condicionales. Diagrama de flujo y N-S
 
-clase 3: identificadores- variables y constantes-
-
-clase 4:  condicionales. Diagrama de flujo y N-S
-
-clase 5: condicionales múltiples. Diagrama de flujo y N-S
+- clase 5: condicionales múltiples. Diagrama de flujo y N-S
 
 - Arreglos Unidimensionales
 
