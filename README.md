@@ -8,12 +8,12 @@ Acá voy a dejar todas las actividades del curso de ingreso a la **Tecnicatura U
 
 ## ¿ Qué hay ?
 
-[Lo visto para MATEMATICA](https://eugenia1984.github.io/UTNFRSR-ingreso/matematica)
+[Lo visto para MATEMATICA](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica)
 
 - clase 1 : lógica proposicional
 
 
-[Lo visto para PROGRAMACION](https://eugenia1984.github.io/UTNFRSR-ingreso/programacion):
+[Lo visto para PROGRAMACION](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion):
 
 - clase 1 : Variables
 

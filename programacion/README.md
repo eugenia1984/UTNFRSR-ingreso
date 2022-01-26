@@ -4,7 +4,7 @@
 
 - [clase 2 : elementos de entorno de algoritmo y programación.](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase2)
 
-- clase 3:
+- [clase 3: los identificadores son los datos de un programa - variables y constantes-](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase3)
 
 - clase 4:
 
