@@ -10,8 +10,8 @@
 
 - [clase 5: los condicionales múltiples](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase5)
 
-- clase 6:
+- [clase 6: arreglos unidimensionales](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase6)
 
-- clase 7:
+- [clase 7: ordenamiento](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase7)
 
 ---

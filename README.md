@@ -15,19 +15,20 @@ Acá voy a dejar todas las actividades del curso de ingreso a la **Tecnicatura U
 
 :book:  [Lo visto para PROGRAMACION](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion):
 
-- clase 1 : variables : declaración, asignación, lectura, escritura.
+- clase 1 : variables : declaración, asignación, lectura, escritura. [ver carpeta](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase1)
 
-- clase 2 : elementos de entorno de algoritmo y programación.
+- clase 2 : elementos de entorno de algoritmo y programación.  [ver carpeta](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase2)
 
-- clase 3: identificadores : variables y constantes. También está lo que se vio en la clase con el profesor Ariel Betancud.
+- clase 3: identificadores : variables y constantes. También está lo que se vio en la clase con el profesor Ariel Betancud. [ver carpeta](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase3)
 
-- clase 4:  condicionales. Diagrama de flujo y N-S
+- clase 4:  condicionales. Diagrama de flujo y N-S [ver carpeta](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clas4e)
 
-- clase 5: condicionales múltiples. Diagrama de flujo y N-S
+- clase 5: condicionales múltiples. Diagrama de flujo y N-S [ver carpeta](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase5)
 
-- Arreglos Unidimensionales
+- clase 6: Arreglos Unidimensionales [ver carpeta](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase6)
 
-- Ordenamiento
+- clase 7: Ordenamiento [ver carpeta](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase7)
+
 
 ---
 
