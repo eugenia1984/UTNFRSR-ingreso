@@ -14,7 +14,8 @@
 
 - [clase 7: ordenamiento](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase7)
 
+---
 
+- [guia con ejercicios](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/guia_con_ejercicios)
 
-- [guia con jercicios](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/guia_con_ejercicios)
 ---

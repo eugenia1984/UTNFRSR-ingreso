@@ -29,7 +29,7 @@ Acá voy a dejar todas las actividades del curso de ingreso a la **Tecnicatura U
 
 - clase 7: Ordenamiento [ver carpeta](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase7)
 
-
+- [guia con ejercicios](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/guia_con_ejercicios)
 ---
 
 ## Stack teconológico 🛠️
