@@ -21,7 +21,7 @@ Acá voy a dejar todas las actividades del curso de ingreso a la **Tecnicatura U
 
 - clase 3: identificadores : variables y constantes. También está lo que se vio en la clase con el profesor Ariel Betancud. [ver carpeta](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase3)
 
-- clase 4:  condicionales. Diagrama de flujo y N-S [ver carpeta](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clas4e)
+- clase 4:  condicionales. Diagrama de flujo y N-S [ver carpeta](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase4)
 
 - clase 5: condicionales múltiples. Diagrama de flujo y N-S [ver carpeta](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase5)
 

@@ -6,7 +6,7 @@
 
 - [clase 3: los identificadores son los datos de un programa - variables y constantes-](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase3)
 
-- [clase 4: los condicionales](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clas4e)
+- [clase 4: los condicionales](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase4)
 
 - [clase 5: los condicionales múltiples](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase5)
 

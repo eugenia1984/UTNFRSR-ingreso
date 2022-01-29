@@ -5,7 +5,7 @@ Proceso Capitulo6Ejericio2
 	sumatoriaDeImpares <- 0;
 	sumatoriaDePares <- 0;
 		
-	Para numerosACalcular <- 1 Hasta 50 Con Paso 1 Hacer
+	Para numerosACalcular <- 1 Hasta 49 Con Paso 1 Hacer
 		Si numerosACalcular MOD 2 = 0 Entonces
 			sumatoriaDePares <- numerosACalcular + sumatoriaDePares ;
 		SiNo
