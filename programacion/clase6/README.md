@@ -286,6 +286,172 @@ Proceso Capitulo7Ejercicio6
 FinProceso
 ```
 
+
+[Ejercicio 7 del capitulo 7](https://github.com/eugenia1984/UTNFRSR-ingreso/blob/main/programacion/guia_con_ejercicios/capitulo7ejercicio7.psc)
+
+```
+// una posicion hacia abajo, el 1ro pasa a ser el 2do, el 2do pasa a ser el 3ro
+// y asi sucesivamente. El último para a ser el 1ro.
+Proceso Capitulo7Ejercicio7
+	Definir num, ultimo, i COmo Entero;
+	Dimension num[6];
+	
+	Para i <- 0 Hasta 5 Con Paso 1 Hacer
+		Escribir (i+1)," - Ingrese un número: ";
+		Leer num[i];
+	FinPara
+	
+	ultimo <- num[5];
+	
+	Para i <- 4 Hasta 0 Con Paso -1 Hacer
+		num[i+1] <- num[i];
+	FinPara
+	
+	num[0] <- ultimo;
+	
+	Escribir" El nuevo arreglo es: ";
+	
+	Para i <- 0 Hasta 5 Con Paso 1 Hacer
+		Escribir Sin Saltar num[i], " ";
+	FinPara
+FinProceso
+```
+
+
+[Ejercicio 8 del capitulo 7](https://github.com/eugenia1984/UTNFRSR-ingreso/blob/main/programacion/guia_con_ejercicios/capitulo7ejercicio8.psc)
+
+
+[Ejercicio 9 del capitulo 7](https://github.com/eugenia1984/UTNFRSR-ingreso/blob/main/programacion/guia_con_ejercicios/capitulo7ejercicio9.psc)
+
+```
+//Leer por teclado un arreglo de 5 elementos numericos y una posicion
+// (entre 0 y 4). Eñiminar el elemento situado en la posicion dada sin dejar huecos
+Proceso Capitulo7Ejercicio9
+	Definir num, i, posicion Como Enteros;
+	Dimension num[5];
+	
+	Para i <- 0 Hasta 4 Con Paso 1 Hacer
+		Escribir i, " - Ingrese un numero: ";
+		Leer num[i];
+	FinPara
+	
+	Repetir
+		Escribir"Ingrese una posicion del arreglo (entre 0 y 4): ";
+		Leer posicion;
+	Hasta Que posicion >=0 Y posicion <= 4
+	
+	Para i <- posicion Hasta 3 Con Paso 1 Hacer
+		num[i] <- num[i+1];
+	FinPara
+	
+	Escribir "";
+	Escribir "El nuevo arreglo es: ";
+	
+	Para i <- 0 Hasta 3 Con Paso 1 Hacer
+		Escribir i,". Elemento: ", num[i];
+	FinPara
+	
+FinProceso
+
+```
+
+
+[Ejercicio 10 del capitulo 7](https://github.com/eugenia1984/UTNFRSR-ingreso/blob/main/programacion/guia_con_ejercicios/capitulo7ejercicio10.psc)
+
+```
+//Leer dos arreglos de 5 numeros enteros cada uno, que estaran ordenados crecientemente.
+//Copiar (fusionar) los dos arreglos en un tercero, de forma que los numeros sigan ordenados
+Proceso Capitulo7Ejercicio10
+	Definir i, j, k Como Entero;
+	Definir creciente Como Logico;
+	Definir a, b, c Como Entero;
+	Dimension a[5], b[5], c[10];
+	
+	Escribir"Ingrese los elementos del primer arreglo: ";
+	
+	Repetir
+		creciente <- verdadero;
+		//Guardo el arreglo 1
+		Para i <- 0 Hasta 4 Con Paso 1 Hacer
+			Escribir i," - Ingrese un número: ";
+			Leer a[i];
+		FinPara
+		//Se comprueba que este ordenado
+		Para i <- 0 Hasta 3 Con Paso 1 Hacer
+			Si a[i] > a[i+1] Entonces //si el 1er elemento es mayor al 2do elemento -> es decreciente
+				creciente <- falso;
+			FinSi
+		FinPara
+		
+		Si creciente = falso Entonces
+			Escribir"Arreglo DESORDENADO, vuelva a ingresarlo.";
+		FinSi
+		
+	Hasta Que creciente = Verdadero;
+	
+	Escribir"Ingrese los elementos del segundo arreglo: ";
+	
+	Repetir
+		creciente <- verdadero;
+		//Guardo el arreglo 2
+		Para i <- 0 Hasta 4 Con Paso 1 Hacer
+			Escribir i," - Ingrese un número: ";
+			Leer b[i];
+		FinPara
+		//Se comprueba que este ordenado
+		Para i <- 0 Hasta 3 Con Paso 1 Hacer
+			Si b[i] > b[i+1] Entonces //si el 1er elemento es mayor al 2do elemento -> es decreciente
+				creciente <- falso;
+			FinSi
+		FinPara
+		
+		Si creciente = falso Entonces
+			Escribir"Arreglo DESORDENADO, vuelva a ingresarlo.";
+		FinSi
+		
+	Hasta Que creciente = Verdadero;
+	
+	i <- 0; // para el arreglo a
+	j <- 0; // para el arreglo b
+	k <- 0; // para el arreglo c
+	
+	Mientras (i<5 Y j <5) Hacer
+		Si a[i] < b[j] Entonces
+			c[k] <- a[i];
+			i <- i + 1;
+		SiNo
+			c[k] <- b[j];
+			j <- j + 1;
+		FinSi
+		k <- k + 1;
+	FinMientras
+	
+	Si ( i=5 ) Entonces
+		Mientras ( j<5 ) Hacer
+			c[k] <- b[j];
+			j <- j + 1;
+			k <- k + 1 ;
+		FinMientras
+	SiNo
+		Si( j=5) Entonces
+			Mientras ( i<5 ) Hacer
+				c[k] <- a[i];
+				i <- i + 1;
+				k <- k + 1;
+			FinMientras
+		FinSi
+	FinSi
+	
+	//Para mostrar el arreglo c
+	Escribir "El nuevo arreglo con la fusion de los numeros ingresados es: ";
+	Para i <- 0 Hasta 9 Con Paso 1 Hacer
+		Escribir Sin Saltar c[i]," ";
+	FinPara
+	Escribir"";
+	
+FinProceso
+```
+
 ---
 
 [Video tutorial de aprendizaje, con trabajos de alumnos](https://www.youtube.com/watch?v=C2bDlaxz6o4)
