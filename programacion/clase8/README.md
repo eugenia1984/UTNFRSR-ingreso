@@ -127,3 +127,5 @@ mitad = 2
 ---
 
 [Ejercicios de busqueda en PseInt](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase8/ejercicios_de_busquedas)
+
+---
