@@ -14,6 +14,9 @@
 
 - [clase 7: ordenamiento](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase7)
 
+
+- [clase 8: busqueda secuencial y busqueda binaria](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase8)
+
 ---
 
 - [guia con ejercicios](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/guia_con_ejercicios)

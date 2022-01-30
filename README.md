@@ -12,6 +12,10 @@ Acá voy a dejar todas las actividades del curso de ingreso a la **Tecnicatura U
 
 - clase 1 : lógica proposicional
 
+[Carpeta con la práctica](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/practica)
+
+[Carpeta con la teoría](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/teoria)
+
 
 :book:  [Lo visto para PROGRAMACION](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion):
 
