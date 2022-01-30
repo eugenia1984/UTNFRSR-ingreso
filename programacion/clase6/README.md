@@ -456,6 +456,21 @@ FinProceso
 
 [Video tutorial de aprendizaje, con trabajos de alumnos](https://www.youtube.com/watch?v=C2bDlaxz6o4)
 
-Veremos todos los niveles dentro de Programación desde cero en PSeInt
+Veremos todos los niveles dentro de Programación desde cero en PSeInt, hace un repaso de los trabajos entregados:
+
+- algunos en vez de **Proceso** usan Algoritmo
+
+- no pusieron el modo estricto y no ponen **;**
+
+- dejan espacio en los Fin Si.
+
+- Al concatenar cadenas con variables no ponen la **,**
+
+- Se olvidan al inciio de poner la palabra **Escribir** por lo que no va a funcionar la salida de datos
+
+- seguramente no lo probaron antes de enviarlo, sino verian que no se puede ejecutar.
+
+
+Si no esta en modo estructo, no se puede ejecutar, no esta terminado y el profesor no lo puede evaluar.
 
 ---
