@@ -29,7 +29,7 @@ Proceso Capitulo7Ejercicio8
 	Leer dato;
 	posicion <- 0;
 	j <- 0;
-     //Aca tengo el error de que num(5) no esta inicializado
+
 	Mientras num[j] < dato Y j < 5 Hacer // Recorro el arreglo para saber la posicion donde insertar el dato
 		posicion <- posicion + 1;
 		j <- j + 1;
