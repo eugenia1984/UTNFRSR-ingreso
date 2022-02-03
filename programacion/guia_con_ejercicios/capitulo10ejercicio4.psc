@@ -9,10 +9,10 @@ Proceso Capitulo10Ejercicio4
 	textoSinEspacios <- "";
 	
 	Para i <-  0 Hasta Longitud(textoIngresado) Con Paso 1 Hacer
-		Si SubCadena(textoIngresado, i, i) <> " " Entonces
+		Si SubCadena(textoIngresado, i, i) = ' ' Entonces
 			textoConEspacios <- Concatenar(textoIngresado, SubCadena(textoIngresado, i, i) );
 		Sino	
-			textoSinEspacios <- Concatenar(textoIngresado, SubCadena(textoIngresado, i, i) );
+			textoSinEspacios <- Concatenar(textoSinEspacios, SubCadena(textoIngresado, i, i) );
 		FinSi
 	FinPara
 	

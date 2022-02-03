@@ -9,7 +9,7 @@ Proceso Capitulo10Ejercicio3
 	Repetir
 		Escribir"Ingresa una frase: ";
 		Leer cadenaIngresada;
-		Escribir "Ingresa (EN NUMERO ENTERO) la catidad de veces que queres ver la frase ingresada repetida: ";
+		Escribir "Ingresa (EN NUMERO ENTERO) la cantidad de veces que queres ver la frase ingresada repetida: ";
 		Leer numeroIngresado;
 	Hasta Que numeroIngresado > 0
 	
