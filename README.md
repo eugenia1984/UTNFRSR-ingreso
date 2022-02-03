@@ -36,6 +36,10 @@ Acá voy a dejar todas las actividades del curso de ingreso a la **Tecnicatura U
 
 - [clase 8: busqueda secuencial y busqueda binaria](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase8)
 
+
+- [clase 9: cadenas de caracteres](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase9)
+
+
 - [guia con ejercicios](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/guia_con_ejercicios)
 ---
 
