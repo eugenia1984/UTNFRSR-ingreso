@@ -23,7 +23,7 @@ Proceso Capitulo11Ejercicio5
 		Escribir " ";
 	FinPara
 	//Muestro el vector unidimensional
-	Escribir"El vector que se forma con la diagonal principal de la matriz es: ";
+	Escribir Sin Saltar "El vector que se forma con la diagonal principal de la matriz es: ";
 	Para i <- 0 Hasta 3 Con Paso 1 Hacer
 		Escribir Sin Saltar arreglo[i], " ";
 	FinPara
