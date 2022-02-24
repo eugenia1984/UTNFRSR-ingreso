@@ -7,16 +7,17 @@ Proceso Capitulo11Ejericico3
 	Definir filas,columnas como enteros;
 	Dimension filas[4],columnas[4];
 	
+	Escribir " Vamos a rellenar una matriz de 4 x 4";
 	// Pedimos los elementos de la matriz
 	Para i<-0 Hasta 3 Hacer
 		Para j<-0 Hasta 3 Hacer
-			Escribir Sin saltar "Digite un numero[",i,"][",j,"]: ";
+			Escribir Sin saltar "Ingrese un número para la posicion: [",i,"][",j,"]: ";
 			Leer num[i,j];
 		FinPara
 	FinPara
 	
 	// Mostramos la matriz
-	Escribir "";
+	Escribir "La matriz es: ";
 	Para i<-0 Hasta 3 Hacer
 		Para j<-0 Hasta 3 Hacer
 			Escribir Sin saltar num[i,j]," ";
