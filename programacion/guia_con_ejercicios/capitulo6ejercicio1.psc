@@ -1,4 +1,4 @@
-//CAlcular la suma de los N primeros números
+//Calcular la suma de los N primeros números
 Proceso sin_titulo
 	Definir N, suma, i Como Entero;
 	

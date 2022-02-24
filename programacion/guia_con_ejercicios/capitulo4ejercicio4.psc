@@ -11,7 +11,7 @@ Proceso Capitulo4Ejercicio4
 	Escribir,"Ingresa la cantidad de examenes C que tiene: ";
 	Leer evaluacionC;
 	evaluacionesTotales <- evaluacionA * 5  + evaluacionB * 8 + evaluacionC * 6;
-	horas <- redon(evaluacionesTotales / 60);
+	horas <- trunc(evaluacionesTotales / 60);
 	minutos <- evaluacionesTotales  MOD 60;
 	Escribir,"En revisar todas las evaluaciones tardará: ",horas," hora(s) y ",minutos," minuto(s).";
 FinProceso

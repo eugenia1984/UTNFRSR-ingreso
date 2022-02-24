@@ -1,8 +1,9 @@
 //Hacer un programa para intercambiar el valor de dos variables
 Proceso Capitulo2Ejercicio3
 	Definir num1, num2, numAuxiliar Como Real;
+	// inicializo las variables
 	num1 <- 0;
-	num2 <-0;
+	num2 <- 0;
 	numAuxiliar <- 0;
 	
 	Escribir, "Ingrese un primer número: ";

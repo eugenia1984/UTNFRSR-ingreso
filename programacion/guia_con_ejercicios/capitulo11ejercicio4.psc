@@ -39,7 +39,7 @@ Proceso Capitulo11Ejercicio4
 		FinSi
 	FinPara
 	Escribir "";
-	Escribir "La colmna con la mayor suma es: ", posicionColumna;
+	Escribir "La columna con la mayor suma es: ", posicionColumna;
 	Escribir "La suma de dicha columna es: ", sumaColumnas;
 	
 FinProceso

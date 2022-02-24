@@ -1,4 +1,4 @@
-Proceso Capilo2Ejericicio1
+Proceso Capitulo2Ejericicio1
 	Definir a, b, c, x1, x2 Como Real;
 	
 	Escribir"--- Se pide que ingrese los valores para poder calcular la expresión algorítmica---";

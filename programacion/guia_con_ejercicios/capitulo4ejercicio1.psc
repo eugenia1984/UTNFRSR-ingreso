@@ -1,4 +1,5 @@
-//calcular la cantidad de segundos que estan incluidos en el numero de horas, minutos y segundos ingresados por el usuario
+//calcular la cantidad de segundos que estan incluidos en el numero de horas, 
+// minutos y segundos ingresados por el usuario
 Proceso Capitulo4Ejercicio1
 	Definir horas, minutos, segundosIngresados, segundosTotales Como Enteros;
 	

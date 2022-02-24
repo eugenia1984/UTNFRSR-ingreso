@@ -1,4 +1,4 @@
-// Ingresa N nors. calcular el maximo y minimo de ellos.
+// Ingresa N nros. calcular el maximo y minimo de ellos.
 Proceso Capitulo6Ejercicio10
 	Definir n_elementos, i Como Enteros;
 	Definir num, mayor, menor Como Reales;
@@ -8,24 +8,25 @@ Proceso Capitulo6Ejercicio10
 		Leer n_elementos;
 	Hasta Que n_elementos > 0  // Para asegurarme de que solo ingrese numero positivo (no ingresa 0 ni negativo)
 	
-	num <- 1;
-	mayor <- num;
-	menor <- num;
-	i <- num;
+	i <- 1;
 	
 	Repetir
 		Escribir "- Ingrese un número: ";
 		Leer num;
 		
-		Si num > mayor Entonces  	//Determinar el mayor de los números
+		Si i = 1 Entonces
 			mayor <- num;
+			menor <- num;
 		SiNo
-			Si num < menor Entonces //Determinar el número menor
-				menor <- num;
-				
+			Si num > mayor Entonces  	//Determinar el mayor de los números
+				mayor <- num;
+			SiNo
+				Si num < menor Entonces //Determinar el número menor
+					menor <- num;
+					
+				FinSi
 			FinSi
 		FinSi
-		
 		i <- i + 1;
 	Hasta Que i > n_elementos;
 	

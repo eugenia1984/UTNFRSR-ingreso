@@ -6,7 +6,7 @@ Proceso Capitulo6Ejercicio4
 	Definir i Como Entero;
 	
 	suma <- 0;
-	calificacionBaja <- 99999;
+	calificacionBaja <- 0;
 	
 	Para i<-1 Hasta 10 Con Paso 1 Hacer
 		Escribir i," - Ingrese una calificación: ";
@@ -14,8 +14,12 @@ Proceso Capitulo6Ejercicio4
 		//En la variable suma acumulo la suma de las calificaciones
 		suma <- suma + calificacion;
 		//Calculo la menor calificacion
-		si calificacion < calificacionBaja Entonces
+		Si i = 1 Entonces
 			calificacionBaja <- calificacion;
+		SiNo
+			Si calificacion < calificacionBaja Entonces
+				calificacionBaja <- calificacion;
+			FinSi
 		FinSi
 	FinPara
 	

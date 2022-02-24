@@ -3,6 +3,7 @@
 //circunferenciaCirculo <- 2 * PI * radio
 Proceso Capitulo4Ejercicio2
 	Definir areaCirculo, circunferenciaCirculo, radio Como Real;
+	// inicializo
 	areaCirculo <- 0;
 	circunferenciaCirculo <- 0;
 	radio <- 0;
