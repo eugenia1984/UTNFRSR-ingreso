@@ -20,7 +20,7 @@ Temas:
 
 ---
 
-## Punto 1: Descargar PSeInt
+## :star: Punto 1: Descargar PSeInt
 
 
 Desde la página: [http://pseint.sourceforge.net/](http://pseint.sourceforge.net/) se descarga para: linux, windows, macOS, dependiendo el sistema operativo.
@@ -31,7 +31,7 @@ configuracion > opciones de lenguaje > modo estricto > aceptar
 
 --
 
-## Punto 2: Identificadores (Constantes y variables)
+## :star: Punto 2: Identificadores (Constantes y variables)
 
 **Identificadores** representan los datos de un programa y pueden ser **constantes** o **variables**.
 
@@ -111,7 +111,7 @@ está permitido ni en PseInt ni en Python. Por ejemplo: day-of-the-month
 
 ---
 
-## Punto 3: Tipos de Datos
+## :star: Punto 3: Tipos de Datos
 
 
 Los tipos de datos hacen referencia al tipo de información que se trabaja, todos los datos tienen un tipo asociado con ellos.
@@ -145,7 +145,7 @@ Los tipos de datos pueden ser...
 
 ---
 
-## Punto 4: Operación de Asignación
+## :star: Punto 4: Operación de Asignación
 
 Consiste en atribuir un valor a una variable.
 
@@ -153,22 +153,86 @@ Consiste en atribuir un valor a una variable.
 nombre_de_la_variable <- expresion;
 ```
 
-En algunos lenguajes de programación, el símbolo de asignación puede ser **=**
+En algunos lenguajes de programación, el símbolo de asignación puede ser **=**. En pseint se asigna con **->**.
+
+Ejemplo en pseudocodigo: ``` num <- 5;```
+
+- El proceso de asignación se realiza en 2 fases:
+
+Se evalúa la expresión de la parte derecha de la asignación obteníendose un único valor.
+
+Se asigna ese valor a la varaible de la parte izquierda, sustituyendose el valor que tenia anteriormente.
+
+### ¿ Qué es lo que hay que tener en cuenta ?
+
+- En la aprte izquierda solo puede haber una variable
+
+- La variable a la que se le asigna el valor pierde su valor anterior
+
+- El tipo de dato que se obtiene al evaluar laa parte derecha tiene que ser el mismo que el tipo de dato de la varaible de la parte izquierda, es decir a una variable se le pueden dar valores de su mismo tipo de dato. -> si por ejemplo defino a la variable como Entera, entonces los datos que va a almacenar son numeros Enteros, no puede almacenar otro tipo de dato.
 
 ---
 
-## Punto 5: Entrada y Salida de información
+## :star: Punto 5: Entrada y Salida de información
+
+**Entrada**: Los operadores de entrada permiten leer determinados valores y asignarlos a determinadas varaibles. La entrada se conoce como **Leer**.
+
+**Salida**: son los difernetes mensajes que se le envían al usuario, ay que para pedir un valor o también para mostrar un resultado. La salida se conoce como **Escribir**
 
 ---
 
-## Punto 6: Operadores y Operandos
+## :star:  Punto 6: Operadores y Operandos
+
+**Operadores** son elementos que relacionan de forma diferente, los valores de una o más variables y/o constantes. Es decir, los operadores nos permiten manipular valores.
+
+### Tipos de operadores
+
+- **Aritméticos**: permiten la realización de operaciones matemáticas son los valores (variables y constantes).
+
+Los operadores aritméticos pueden ser utilizados con tipos de datos enteros o reales. Si ambos son enteros, el resultado es entero; si alguno es real, el resultado es real.
+
+```+``` suma
+
+```-``` resta
+
+```*``` multiplicación
+
+```/``` división
+
+```mod```  modulo, residuo, resto
+
+``` ̑  ``` exponenciación
+
+| expresion | representacion | resultado |
+| --------- | -------------- | --------- |
+| 3x7 | 3*7 | Entero |
+| 29/7 | 29/7 | Real |
+ 7 al cuadrado | 7̑ 2 | Entero |
+
+### Prioridad de los operadores aritméticos
+
+Todas las expresiones entre paréntesis se evalúan primero. Las expresiones con paréntesis anidados se evalúan de adentro a afuera, el paréntesis más interno se evalúa primero. 
+
+Dentro de una misma expresión los operadores se evalúan en el sigueinte orden:
+
+1- exponenciación
+
+2- multiplicación, división, módulo
+
+3- suma y resta
+
+
+
+- **Relacionales**
+
+- **Lógicos**
 
 ---
 
-## Punto 7: Funciones Internas
+## :star: Punto 7: Funciones Internas
 
 ---
 
-## Punto 8: Ejercicios
+## :star: Punto 8: Ejercicios
 
 ---
