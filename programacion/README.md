@@ -1,5 +1,7 @@
 # Programacion
 
+## Clases :
+
 - [clase 1 : variables : declaración, asignación, lectura, escritura.](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase1)
 
 - [clase 2 : elementos de entorno de algoritmo y programación.](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase2)
@@ -22,6 +24,26 @@
 
 ---
 
+## Ejercicios
+
 - [guia con ejercicios](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/guia_con_ejercicios)
 
 ---
+
+## Teoría
+
+### Capítulo 1
+
+Temas a ver:
+
+**Elementos de entorno de algoritmos y programación**
+
+1 - Información y procesamiento de la información
+
+2 - Algoritmo y Programa
+
+3 - Lenguaje de programación
+
+4 - Metodologías para la solución de problemas por medio de computadoras
+
+[En la carpeta capitulo 1 esta todo desarrollado](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo1)
