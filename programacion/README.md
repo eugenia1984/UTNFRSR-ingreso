@@ -32,7 +32,7 @@
 
 ## Teoría
 
-### Capítulo 1
+### Capítulo 1: elementos de entorno de algoritmos y programación 
 
 Temas a ver:
 
@@ -47,3 +47,28 @@ Temas a ver:
 4 - Metodologías para la solución de problemas por medio de computadoras
 
 [En la carpeta capitulo 1 esta todo desarrollado](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo1)
+
+
+### Capítulo 2 : Programación desde cero
+
+**Capitulo 2: Entidades Primitivas**
+
+- Punto 1: Descargar PSeInt
+
+- Punto 2: Identificadores (Constantes y variables
+
+- Punto 3: Tipos de Datos
+
+- Punto 4: Operación de Asignación
+
+- Punto 5: Entrada y Salida de información
+
+- Punto 6: Operadores y Operandos
+
+- Punto 7: Funciones Internas
+
+- Punto 8: Ejercicios
+
+[En la carpeta capitulo 2 esta todo desarrollado](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo2)
+
+

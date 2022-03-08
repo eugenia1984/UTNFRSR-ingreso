@@ -4,8 +4,6 @@
 
 ## Temas a ver:
 
-**Elementos de entorno de algoritmos y programación**
-
 1 - Información y procesamiento de la información
 
 2 - Algoritmo y Programa

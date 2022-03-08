@@ -43,7 +43,10 @@ Acá voy a dejar todas las actividades del curso de ingreso a la **Tecnicatura U
 
 - [guia con ejercicios](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/guia_con_ejercicios)
 
-- [capitulo 1](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo1) -> **Elementos de entorno de algoritmos y programación**: 1 - Información y procesamiento de la información / 2 - Algoritmo y Programa / 3 - Lenguaje de programación / 4 - Metodologías para la solución de problemas por medio de computadoras
+- [capitulo 1 : elementos de entorno de algoritmos y programación](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo1) -> **Elementos de entorno de algoritmos y programación**: 1 - Información y procesamiento de la información / 2 - Algoritmo y Programa / 3 - Lenguaje de programación / 4 - Metodologías para la solución de problemas por medio de computadoras
+
+
+- [Capítulo 2 : Entidades primitivas](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo2) -> Temas: descargar PSeInt / identificadores (Constantes y variables) / tipos de Datos / operación de Asignación / entrada y Salida de información / operadores y Operandos / funciones Internas / ejercicios
 
 
 ---
