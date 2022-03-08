@@ -1,4 +1,4 @@
-# Capítulo 1
+# Capítulo 1: elementos de entorno de algoritmos y programación 
 
 ---
 
@@ -283,12 +283,105 @@ Inconveniente: el proceso de traducción es muy largo y ocupa más recursos.
 | los compiladores analizan todo le programa y no generan resultados si no es correcto todo el codigo | los interpretes analizan las instrucciones según las necesitan y pueden iniciar la ejecución de un programa con errores |
 
 
-- **según el paradigam de ejecución**
+- **según el paradigam de ejecución**: un paradigma de programación representa un enfoque particular o filosofía para la construcción de un software. Puede ser...
 
+... **Algorítmico Imperativo o por Procedimientos**: el más común y está representado, por ejemplo, por lenguajes de programación como C o BASIC. Describe la programación en términos del estado del programa y sentencias que cambian dicho estado. los programas imperativos son un conjunto de instrucciones que le indican al computador cómo realizar una tarea.
+
+... **Declarativo o Predicativo**: basado en la utilización de predicados lógicos o funciones matemáticas, su objetivo es conseguir lenguajes en los que no sea necesario especificar como resolver el probelma (programación convencional imperativa).
+
+... **Lógico**: un ejempplo de PROLOG. El mecanismo de inferencia genérico se basa en los procedimientos de deducción de formulas válidas en un sistema axiomático.
+
+... **Funcional**: representado por la familia de lenguajes LISP. El mecanismo de inferencia genérico se basa en la reproducción de una expresión funcional a otra equivalente simplificada.
+
+... **Orientado a objetos**: cada vez más utilizado, sobre todo en combinación con el imperatico. De hecho los lenguajes orientados a objetos permiten la programación imperativa. Algunos ejemplos son C++, Delphi, Java, Python, etc. Usa objetos y sus interacciones para diseñar aplicaciones y programas de computadora. Está basado en varias técnicas, incluyendo herencia, modularidad, polimorfismo y escapsulamiento.
+
+```
+                                                   ---
+                                                   |  Lenguajes de máquina
+                  --- segun nivel de abstracción---|  Lenguajes de bajo nivel(Ensamblador)
+                  |                                |  Lenguajes de alto nivel
+                  |                                --
+                  |
+                  |                                   ---
+tipos de          |                                   |  Lenguajes compilados
+lenguajes         |--- según la forma de ejecución ---|  Lenguajes interpretados
+de programción ---|                                   ---
+                  |                                         ---
+                  |                                         | Imperativo
+                  |--- según el paradigma de programción ---| Declarativo o Predicativo
+                                                            | Logico
+                                                            | Funcional
+                                                            | Orientado a objetos
+                                                            ---
+```     
+  
 ---
 
 # :star: 4 - Metodologías para la solución de problemas por medio de computadoras
 
+Desde el punto de vista educativo la solución de problemas mediante la programación posibilita la activación de una amplia variedad de estilos de aprendizaje. Pueden encontrar diversas maneras de abordar problemas y plantear soluciones.
+
+Es por ello que debemos considerar 4 fases, en esencia, para resolver problemas específicos mediante la programación de computadoras.
+
+## 1- Analizar el problema
+
+Esta fase está dada por el enunciado del problema, el cual requiere una definiciñon clara y precisa. Es importante que se conozca lo que se desea que realice la computadora, mientras esto no se conozca del todo no tiene mucho caso continuar con la sigueinte etapa.
+
+## 2- Diseñar un algoritmo
+
+Una vez que se ha comprendido lo que se desea de la computadora es necesario definir:
+
+- los datos de entrada (input)
+
+- cuál es la información que se desea producir (salida/output)
+
+- los métodos y fórmulas que se necesitan para procesar los datos
+
+Las características de un buen algoritmo son:
+
+- debe tener un punto particular de inicio.
+
+- debe ser preciso e indicar el orden de realización de cada paso.
+
+- debe ser definido, no debe permitir dobles interpretaciones.
+
+- debe ser general (va a tomar un problema, lo va a solucionar, pero el problema puede ser de definición general).
+
+- debe ser finito (empiea y termina) en tamaño y tiempo de ejecución.
+
+
+## 3- Traducir el algoritmo a un lenguajes de progrmaación
+
+La **codificación** es la operación de escribir la solución del programa (de acuerdo a la lógica del diagrama de flujo o pseudocódigo), en una serie de instrucciones detalladas, en un código reconocible por la computadora, la serie de instrucciones detalladas se leconoce como **código fuente**, el cual se escribe en un lengiaje de programación.
+
+## 4- Depurar el programa
+
+Los errores humanos dentro de la programación de computadoras son muchos y aumentan considerablemente con la complejidad del problema. El proceso de identificar y eliminar errores, para dar paso a una solución sin errores se le llama **depuración**.
+
+Algunos errores humanos: el cansancio que no nos deja ver el problema
+
+La depuración o prueba resulta una tarea tan creativa como el mismo desarrollo de la solución, por ello se debe considerar con el mismo interés y entusiasmo.
 
 ---
 
+## Documentación
+
+Es la guia o comunicación escrita en sus variadas formas, ya sea en enunciados, procedimeintos, dibujos o diagramas.
+
+A menudo un programa escrito por una persona, es usado por otro. Por ello la documentación sirve para ayudar a comprender o usar un programa o para facilitar futuras modificaciones (mantenimiento).
+
+La documentación se divide en 3 partes:
+
+- **documentación interna** es aquella que hacemos los programadores dentro del código, cuando comentamos dentro del código y explicamos le algoritmo. Otro modo es con los nombres que declaramos las variables o las funciones, deben ser explicativos al dato que van a almacenar o al método que van a ejecutar.
+
+- **documentación externa** es cuando se documenta fuera dle programa, puede ser el enunciado del problema, que solución presenta.
+
+- **manual de usuario**, para que el mismo pueda saber cómo utilizar el programa, los gráficos e imágenes ayudan en la descripción.
+
+---
+
+## Mantenimiento
+
+Se lleva a cabo después de terminado el programa, cuando se detecta que es necesario hacer algún cambio, ajuste o cpplementación al programa para que siga trabajando de manera correcta. Para poder realizar este trabajo se requiere que el programa esté correctamente documentado.
+
+---
