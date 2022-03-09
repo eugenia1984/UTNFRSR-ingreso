@@ -9,7 +9,11 @@ Proceso Capitulo2Ejericio2
 	Escribir"Ingresar un numero para poder asignarle valor a B: ";
 	Leer b;
 	
-	resultado <- ( (3 + 5 * 8) < 3 Y ( (-6/3 * 4) + 2 <2)) O ( a > b);
+	resultado <- ( (3 + 5 * 8) < 3 Y ( (-6/3 * 4) + 2 < 2))  O ( a > b);
+// resultado <- (  (3 + 40) < 3   Y  (       -8  + 2 < 2 )  O  ( a > b)
+// resultado <- (      43  < 3    Y  (           -6  < 2 )  O  ( a > b)
+// resultado <- (    falso        Y  (         verdadero )  O  ( a > b)
+// resultado <-                     falso                   O  ( a > b)
 	
 	Escribir "El resultado de ( (3 + 5 * 8) < 3 Y ( (-6/3 * 4) + 2 <2)) O ( a > b) es: ", resultado;
 FinProceso
