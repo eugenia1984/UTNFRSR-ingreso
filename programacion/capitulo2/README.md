@@ -129,7 +129,7 @@ logico misterio = verdadero;
 
 Los tipos de datos pueden ser...
 
-... **Simples(sin estructura):
+... **Simples(sin estructura)**:
 
 - Numéricos
 
