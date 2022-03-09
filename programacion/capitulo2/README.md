@@ -91,7 +91,7 @@ Otro modo es el **kebab-case**, las palabras se unen con guión medio, no
 está permitido ni en PseInt ni en Python. Por ejemplo: day-of-the-month
 
 
-## clasificación de las variables:
+## Clasificación de las variables:
 
 ### Por su contenido
 
@@ -165,7 +165,7 @@ Se asigna ese valor a la varaible de la parte izquierda, sustituyendose el valor
 
 ### ¿ Qué es lo que hay que tener en cuenta ?
 
-- En la aprte izquierda solo puede haber una variable
+- En la parte izquierda solo puede haber una variable
 
 - La variable a la que se le asigna el valor pierde su valor anterior
 
@@ -209,9 +209,7 @@ Los operadores aritméticos pueden ser utilizados con tipos de datos enteros o r
 | 29/7 | 29/7 | Real |
  7 al cuadrado | 7̑ 2 | Entero |
 
-### Prioridad de los operadores aritméticos
-
-Todas las expresiones entre paréntesis se evalúan primero. Las expresiones con paréntesis anidados se evalúan de adentro a afuera, el paréntesis más interno se evalúa primero. 
+- Prioridad de los operadores aritméticos: todas las expresiones entre paréntesis se evalúan primero. Las expresiones con paréntesis anidados se evalúan de adentro a afuera, el paréntesis más interno se evalúa primero. 
 
 Dentro de una misma expresión los operadores se evalúan en el sigueinte orden:
 
@@ -223,16 +221,120 @@ Dentro de una misma expresión los operadores se evalúan en el sigueinte orden:
 
 
 
-- **Relacionales**
+- **Relacionales**: se utilizan para establecer una relación entre dos valores. 
 
-- **Lógicos**
+Compara estos valores entre sí y esta comparación produce un resultado de certeza o falsedad (verdadero o falso). 
+
+Los operadores relacionales comparan valores del mismo tipo.
+
+Tienen el mismo nivel de prioridad en su evaluación.
+
+Los operadores relacionales tienen menor prioridad que los aritméticos.
+
+| signo | significado |
+| ----- | ----------- |
+| > | mayor que |
+| < | menor que |
+| >= | mayor o igual que |
+| >= | menor o igual que |
+| <> , != | diferente |
+| = , == | igual |
+
+= es para PseInt
+
+== es para los lenguajes de programación
+
+- **Lógicos**: se utilizan para establecer relaciones entre valores lógicos.
+
+Estos valores pueden ser resultado de una expresión relacional.
+
+| expresion en ingles | PseInt |
+| ------------------- | ------ |
+| and (conjunción) | Y |
+| or (disyunción) | O |
+| negacion | NO |
+
+En PseInt se peuden escribir tanto en mayuscula como en minuscula
+
+**AND** es verdadero solo si los dos operandos son verdaderos, de los demás modos da falso (porque es el caso de que al menos uno de los operandos es falso)
+
+**OR**: con que un de los dos sea verdadero, es verdadero. Solo da resultado falso si los dos operandos son falsos
+
+**NO**: niega el valor. verdadero -> falso. falso -> verdadero
+
+- Prioridad de los operadores lógicos: 1ro NOT / 2do AND / 3ro OR
+
+
+Ejemplo:
+
+```
+a = 10;
+b = 12;
+c = 13;
+d = 10;
+
+(( a>b) <> (a<c)) Y ((a=c) = (a>=b)) =
+(( 10>12) <> (10<13)) Y ((10=13) O (10>=12)) =
+(( falso) <> (verdadero)) Y ((falso) O (falso)) =
+(( falso) <> (verdadero)) Y ((falso) O (falso)) =
+(verdadero) Y (falso) = falso
+```
+
+- Priridad de los operadores en general
+
+1- parenteris
+
+2- expotenciación
+
+3- multiplicación, división, residuo, NOT
+
+4- suma, resta, AND
+
+5- mayor que, menor que, mayor o igual que, menor o igual que, distinto, OR
 
 ---
 
 ## :star: Punto 7: Funciones Internas
 
+Son funciones matemáticas difernetes de las operaciones básicas, pero que se incorporan al lenguaje y que se consideran estándar. Dependen del lenguaje. Normalmente se encuentran en la librería de matemáticas del lenguaje de programación.
+
+Algunos ejemplos de las mismas en PseInt:
+
+```
+abs(valor absoluto)
+trunc(valor truncado)
+redon(valor redondeado)
+rc(raiz cuadrada)
+sen(seno)
+cos(coseno)
+tan(tangente)
+asen(arcoseno)
+acos(arcotangente)
+ln(logaritmo natural)
+exp(fun. exponencial)
+azar(numero aleatorio)
+```
+
+Y también en PseInt hay funciones para cadenas como: Longitud, SubCadena, Concatenar, ConvertirANumero, ConvertirATexto, Mayuscula, Minuscula
+
 ---
 
 ## :star: Punto 8: Ejercicios
+
+Creamos un programa para determinar si una persona es mayor de edad.
+
+[Haciendo click acá pueden ver el codigo del mismo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo2/ejericio1.psc)
+
+[Ejemplo de entrada y salida de información](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo2/ejericio2.psc)
+
+[1er ejemplo de prioridad de los operadores aritméticos](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo2/ejericio3.psc)
+
+[2do ejemplo de prioridad de los operadores aritméticos](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo2/ejericio4.psc)
+
+[1er ejemplo de operadores relacionales](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo2/ejericio5.psc)
+
+[2do ejemplo de operadores relacionales](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo2/ejericio6.psc)
+
+[funciones matematicas](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo2/ejericio7.psc)
 
 ---
