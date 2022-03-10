@@ -18,7 +18,9 @@ Temas:
 
 - Punto 8: Ejercicios
 
+
 ---
+
 
 ## :star: Punto 1: Descargar PSeInt
 
@@ -27,15 +29,20 @@ Desde la página: [http://pseint.sourceforge.net/](http://pseint.sourceforge.net
 
 Una vez instalado hay que configurarlo:
 
-configuracion > opciones de lenguaje > modo estricto > aceptar
+```configuracion > opciones de lenguaje > modo estricto > aceptar```
+
 
 --
 
+
 ## :star: Punto 2: Identificadores (Constantes y variables)
+
 
 **Identificadores** representan los datos de un programa y pueden ser **constantes** o **variables**.
 
-Identificador -> secuencia de caracteres que sirve para identificar una posición en la memoria de la computadora que nos permite ingresar a su contenido. Es el nombre de la variable.
+
+**Identificador** -> secuencia de caracteres que sirve para identificar una posición en la memoria de la computadora que nos permite ingresar a su contenido. Es el nombre de la variable.
+
 
 Ejemplo en pseudocodigo:
 
@@ -46,15 +53,18 @@ Proceso Principal
 FinProceso
 ```
 
+
 Reglas para nombrar identificadores...
 
-... debe comenzar con una letra (A-Z mayusculas o minusculas) y no debe contener espacios en blanco.
+... debe comenzar con una letra (A-Z mayúsculas o minúsculas) y no debe contener espacios en blanco.
 
-...no se puede unir con guión medio
+... no se puede unir con guión medio.
 
-... letras, digitos y caracteres, pueden estar unidos por un caracter como el **guión bajo**
+... letras, dígitos y caracteres, pueden estar unidos por un caracter como el **guión bajo**.
 
-...el primer caracter no puede ser un número, si puede tenerlo luego del primer caracter (que debe ser una letra)
+...el primer caracter no puede ser un número, si puede tenerlo luego del primer caracter (que debe ser una letra).
+
+
 
 Ejemplos de como nombrar variables:
 
@@ -65,7 +75,8 @@ Resultado1
 n_personas2
 ```
 
-Ejemplos de errores, como No nombrar variables:
+
+Ejemplos de errores, como NO nombrar variables:
 
 ```
 lado 1   // tiene un espacio
@@ -73,25 +84,35 @@ cuadro-1   // tiene guion medio
 2do_grado  // comienza con un numero
 ```
 
-Una **constante** es un dato numérico o alfanumérico que no cambia durante la ejecución del programa. Por ejemplo: PI = 3.1416. Otro ejemplo de constante es la fecha de nacimiento de una persona.
 
-Una **variable** es un espacio e la computadora que permite almacenar temporalmente un dato durante la ejecución de un proceso, su contenido puede cambiar durante la ejecución del programa. Por ejemplo: area = (base*altura)/2
+Una **constante** es un dato numérico o alfanumérico que no cambia durante la ejecución del programa. 
+
+Por ejemplo: PI = 3.1416. Otro ejemplo de constante es la fecha de nacimiento de una persona.
+
+
+
+Una **variable** es un espacio e la computadora que permite almacenar temporalmente un dato durante la ejecución de un proceso, su contenido puede cambiar durante la ejecución del programa. 
+
+Por ejemplo: area = (base*altura)/2
 
 
 
 ### Tipos de escritura de las variables
 
-Un modo es **camelCase**, si tengo más de una palabra en la primera va todo en minúscula y para las palabras que siguen siempre la primer letra la escribo en mayúscula. Por ejemplo: dayOfTheMonth.
 
-Otro modo es el **UpperCamelCase** o **PascalCase**. Por ejemplo: DayOfTheMonth.
+Un modo es **camelCase**, si tengo más de una palabra en la primera va todo en minúscula y para las palabras que siguen siempre la primer letra la escribo en mayúscula. -> Por ejemplo: dayOfTheMonth.
 
-Otro modo es el **snake_case**. Por ejemplo: day_of_the_month
+Otro modo es el **UpperCamelCase** o **PascalCase**.  -> Por ejemplo: DayOfTheMonth.
 
-Otro modo es el **kebab-case**, las palabras se unen con guión medio, no
-está permitido ni en PseInt ni en Python. Por ejemplo: day-of-the-month
+Otro modo es el **snake_case**.  -> Por ejemplo: day_of_the_month
+
+Otro modo es el **kebab-case**, las palabras se unen con guión medio, no está permitido ni en PseInt ni en Python. -> Por ejemplo: day-of-the-month
+
 
 
 ## Clasificación de las variables:
+
+
 
 ### Por su contenido
 
@@ -101,6 +122,7 @@ está permitido ni en PseInt ni en Python. Por ejemplo: day-of-the-month
 
 - Alfanuméricas (String)
 
+
 ### Por su uso
 
 - de trabajo
@@ -109,7 +131,9 @@ está permitido ni en PseInt ni en Python. Por ejemplo: day-of-the-month
 
 - acumuladores
 
+
 ---
+
 
 ## :star: Punto 3: Tipos de Datos
 
@@ -117,6 +141,7 @@ está permitido ni en PseInt ni en Python. Por ejemplo: day-of-the-month
 Los tipos de datos hacen referencia al tipo de información que se trabaja, todos los datos tienen un tipo asociado con ellos.
 
 El tipo de dato determina la naturaleza del conjunto de valores que puede tomar una variable.
+
 
 Ejemplo:
 
@@ -127,7 +152,9 @@ caracter letra = 'a';
 logico misterio = verdadero;
 ```
 
+
 Los tipos de datos pueden ser...
+
 
 ... **Simples(sin estructura)**:
 
@@ -137,33 +164,48 @@ Los tipos de datos pueden ser...
 
 - Caracter (char)
 
-... **Copuestos (estructurados, definidos por el usuario)**:
+
+... **Compuestos (estructurados, definidos por el usuario)**:
 
 - Simples o Estáticos: arreglos(vectories , matrices), registros, archivos, conjuntos, cadenas de caracteres (string)
 
 - Compuestos o dinámicos: punteros, listas (pilas, colas), listas enlazadas, arboles, grafos
 
+
 ---
+
 
 ## :star: Punto 4: Operación de Asignación
 
+
 Consiste en atribuir un valor a una variable.
+
 
 ```
 nombre_de_la_variable <- expresion;
 ```
 
-En algunos lenguajes de programación, el símbolo de asignación puede ser **=**. En pseint se asigna con **->**.
+En algunos lenguajes de programación, el símbolo de asignación puede ser **=**. 
+
+En pseint se asigna con **->**.
+
 
 Ejemplo en pseudocodigo: ``` num <- 5;```
 
+
+
 - El proceso de asignación se realiza en 2 fases:
+
 
 Se evalúa la expresión de la parte derecha de la asignación obteníendose un único valor.
 
+
 Se asigna ese valor a la varaible de la parte izquierda, sustituyendose el valor que tenia anteriormente.
 
+
+
 ### ¿ Qué es lo que hay que tener en cuenta ?
+
 
 - En la parte izquierda solo puede haber una variable
 
@@ -171,23 +213,32 @@ Se asigna ese valor a la varaible de la parte izquierda, sustituyendose el valor
 
 - El tipo de dato que se obtiene al evaluar laa parte derecha tiene que ser el mismo que el tipo de dato de la varaible de la parte izquierda, es decir a una variable se le pueden dar valores de su mismo tipo de dato. -> si por ejemplo defino a la variable como Entera, entonces los datos que va a almacenar son numeros Enteros, no puede almacenar otro tipo de dato.
 
+
 ---
+
 
 ## :star: Punto 5: Entrada y Salida de información
 
+
 **Entrada**: Los operadores de entrada permiten leer determinados valores y asignarlos a determinadas varaibles. La entrada se conoce como **Leer**.
+
 
 **Salida**: son los difernetes mensajes que se le envían al usuario, ay que para pedir un valor o también para mostrar un resultado. La salida se conoce como **Escribir**
 
+
 ---
+
 
 ## :star:  Punto 6: Operadores y Operandos
 
+
 **Operadores** son elementos que relacionan de forma diferente, los valores de una o más variables y/o constantes. Es decir, los operadores nos permiten manipular valores.
+
 
 ### Tipos de operadores
 
 - **Aritméticos**: permiten la realización de operaciones matemáticas son los valores (variables y constantes).
+
 
 Los operadores aritméticos pueden ser utilizados con tipos de datos enteros o reales. Si ambos son enteros, el resultado es entero; si alguno es real, el resultado es real.
 
@@ -209,7 +260,9 @@ Los operadores aritméticos pueden ser utilizados con tipos de datos enteros o r
 | 29/7 | 29/7 | Real |
  7 al cuadrado | 7̑ 2 | Entero |
 
+
 - Prioridad de los operadores aritméticos: todas las expresiones entre paréntesis se evalúan primero. Las expresiones con paréntesis anidados se evalúan de adentro a afuera, el paréntesis más interno se evalúa primero. 
+
 
 Dentro de una misma expresión los operadores se evalúan en el sigueinte orden:
 
@@ -223,6 +276,7 @@ Dentro de una misma expresión los operadores se evalúan en el sigueinte orden:
 
 - **Relacionales**: se utilizan para establecer una relación entre dos valores. 
 
+
 Compara estos valores entre sí y esta comparación produce un resultado de certeza o falsedad (verdadero o falso). 
 
 Los operadores relacionales comparan valores del mismo tipo.
@@ -230,6 +284,7 @@ Los operadores relacionales comparan valores del mismo tipo.
 Tienen el mismo nivel de prioridad en su evaluación.
 
 Los operadores relacionales tienen menor prioridad que los aritméticos.
+
 
 | signo | significado |
 | ----- | ----------- |
@@ -240,9 +295,12 @@ Los operadores relacionales tienen menor prioridad que los aritméticos.
 | <> , != | diferente |
 | = , == | igual |
 
+
 = es para PseInt
 
+
 == es para los lenguajes de programación
+
 
 - **Lógicos**: se utilizan para establecer relaciones entre valores lógicos.
 
@@ -254,13 +312,19 @@ Estos valores pueden ser resultado de una expresión relacional.
 | or (disyunción) | O |
 | negacion | NO |
 
-En PseInt se peuden escribir tanto en mayuscula como en minuscula
+
+
+En PseInt se pueden escribir tanto en mayuscula como en minuscula
+
 
 **AND** es verdadero solo si los dos operandos son verdaderos, de los demás modos da falso (porque es el caso de que al menos uno de los operandos es falso)
 
+
 **OR**: con que un de los dos sea verdadero, es verdadero. Solo da resultado falso si los dos operandos son falsos
 
+
 **NO**: niega el valor. verdadero -> falso. falso -> verdadero
+
 
 - Prioridad de los operadores lógicos: 1ro NOT / 2do AND / 3ro OR
 
@@ -280,9 +344,10 @@ d = 10;
 (verdadero) Y (falso) = falso
 ```
 
-- Priridad de los operadores en general
 
-1- parenteris
+- Prioridad de los operadores en general
+
+1- parénteris
 
 2- expotenciación
 
@@ -292,9 +357,12 @@ d = 10;
 
 5- mayor que, menor que, mayor o igual que, menor o igual que, distinto, OR
 
+
 ---
 
+
 ## :star: Punto 7: Funciones Internas
+
 
 Son funciones matemáticas difernetes de las operaciones básicas, pero que se incorporan al lenguaje y que se consideran estándar. Dependen del lenguaje. Normalmente se encuentran en la librería de matemáticas del lenguaje de programación.
 
@@ -315,26 +383,33 @@ exp(fun. exponencial)
 azar(numero aleatorio)
 ```
 
-Y también en PseInt hay funciones para cadenas como: Longitud, SubCadena, Concatenar, ConvertirANumero, ConvertirATexto, Mayuscula, Minuscula
+
+Y también en PseInt hay funciones para cadenas como: Longitud, SubCadena, Concatenar, ConvertirANumero, ConvertirATexto, Mayúscula, Minúscula
+
 
 ---
 
 ## :star: Punto 8: Ejercicios
 
-Creamos un programa para determinar si una persona es mayor de edad.
 
-[Haciendo click acá pueden ver el codigo del mismo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo2/ejericio1.psc)
+- Creamos un programa para determinar si una persona es mayor de edad.[Haciendo click acá pueden ver el codigo del mismo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo2/ejericio1.psc)
 
-[Ejemplo de entrada y salida de información](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo2/ejericio2.psc)
 
-[1er ejemplo de prioridad de los operadores aritméticos](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo2/ejericio3.psc)
+- [Ejemplo de entrada y salida de información](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo2/ejericio2.psc)
 
-[2do ejemplo de prioridad de los operadores aritméticos](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo2/ejericio4.psc)
 
-[1er ejemplo de operadores relacionales](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo2/ejericio5.psc)
+- [1er ejemplo de prioridad de los operadores aritméticos](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo2/ejericio3.psc)
 
-[2do ejemplo de operadores relacionales](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo2/ejericio6.psc)
 
-[funciones matematicas](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo2/ejericio7.psc)
+- [2do ejemplo de prioridad de los operadores aritméticos](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo2/ejericio4.psc)
+
+
+- [1er ejemplo de operadores relacionales](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo2/ejericio5.psc)
+
+
+- [2do ejemplo de operadores relacionales](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo2/ejericio6.psc)
+
+
+- [funciones matematicas](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo2/ejericio7.psc)
 
 ---
