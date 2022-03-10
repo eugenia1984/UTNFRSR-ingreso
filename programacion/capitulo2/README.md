@@ -32,7 +32,7 @@ Una vez instalado hay que configurarlo:
 ```configuracion > opciones de lenguaje > modo estricto > aceptar```
 
 
---
+---
 
 
 ## :star: Punto 2: Identificadores (Constantes y variables)
@@ -62,7 +62,7 @@ Reglas para nombrar identificadores...
 
 ... letras, dígitos y caracteres, pueden estar unidos por un caracter como el **guión bajo**.
 
-...el primer caracter no puede ser un número, si puede tenerlo luego del primer caracter (que debe ser una letra).
+... el primer caracter no puede ser un número, si puede tenerlo luego del primer caracter (que debe ser una letra).
 
 
 
@@ -156,7 +156,7 @@ logico misterio = verdadero;
 Los tipos de datos pueden ser...
 
 
-... **Simples(sin estructura)**:
+... **Simples (sin estructura)**:
 
 - Numéricos
 
@@ -197,10 +197,10 @@ Ejemplo en pseudocodigo: ``` num <- 5;```
 - El proceso de asignación se realiza en 2 fases:
 
 
-Se evalúa la expresión de la parte derecha de la asignación obteníendose un único valor.
+-Se evalúa la expresión de la parte derecha de la asignación obteníendose un único valor.
 
 
-Se asigna ese valor a la varaible de la parte izquierda, sustituyendose el valor que tenia anteriormente.
+-Se asigna ese valor a la varaible de la parte izquierda, sustituyendose el valor que tenia anteriormente.
 
 
 
