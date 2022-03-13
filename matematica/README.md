@@ -29,8 +29,15 @@ En las carpetas se encontrará:
 
 ## :book: Práctica
 
-[trabajo practico 1](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/tp1)
 
-[trabajo practico 2](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/tp2)
+- [trabajo practico 1 - parte 1](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/tp1_parte1)
+
+- [trabajo practico 1](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/tp1)
+
+- [trabajo practico 2 - parte 1](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/tp2_parte1)
+
+- [trabajo practico 2](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/tp2)
+
+- [trabajo practico 3 - parte 1](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/tp3_parte1)
 
 ---

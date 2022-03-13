@@ -6,18 +6,35 @@ Acá voy a dejar todas las actividades del curso de ingreso a la **Tecnicatura U
 
 ---
 
-## ¿ Qué hay ?
+# ¿ Qué hay ?
+
+
+
+## :star: Matemáticas
 
 :book:  [Lo visto para MATEMATICA](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica)
 
 - clase 1 : lógica proposicional
 
-[Carpeta con la práctica](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/practica)
+- [Carpeta con la práctica](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/practica)
 
-[Carpeta con la teoría](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/teoria)
+- [Carpeta con la teoría](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/teoria):
 
 
-:book:  [Lo visto para PROGRAMACION](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion):
+
+ [trabajo practico 1 - parte 1](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/tp1_parte1)
+
+ [trabajo practico 1](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/tp1)
+
+ [trabajo practico 2 - parte 1](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/tp2_parte1)
+
+ [trabajo practico 2](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/tp2)
+
+ [trabajo practico 3 - parte 1](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/tp3_parte1)
+
+---
+
+## :book:  [Lo visto para PROGRAMACION](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion):
 
 - clase 1 : variables : declaración, asignación, lectura, escritura. [ver carpeta](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase1)
 
@@ -41,7 +58,14 @@ Acá voy a dejar todas las actividades del curso de ingreso a la **Tecnicatura U
 
 
 
+## :star: Ejercicios prácticos
+
 - [guia con ejercicios](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/guia_con_ejercicios)
+
+
+
+
+## :star:  Clases
 
 - [capitulo 1 : elementos de entorno de algoritmos y programación](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo1) -> **Elementos de entorno de algoritmos y programación**: 1 - Información y procesamiento de la información / 2 - Algoritmo y Programa / 3 - Lenguaje de programación / 4 - Metodologías para la solución de problemas por medio de computadoras
 
