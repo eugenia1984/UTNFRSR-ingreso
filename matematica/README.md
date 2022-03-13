@@ -1,12 +1,13 @@
 # Matematica
 
 
+
 En las carpetas se encontrará:
 
 
 ## :book: Teoría
 
-[Apuntes Nivelación](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/teoria_apuntes_nivelacion)
+[Apuntes Nivelación - con la teoría](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/teoria_apuntes_nivelacion)
 
 
 [Algebra booleana](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/teoria_algebra_booleana)
