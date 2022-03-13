@@ -1,16 +1,6 @@
 # Matematica
 
 
-[Video de la clase del 25 de Diciembre](https://www.youtube.com/watch?v=Gup0yKlm7TQ) con la 
-[clase1](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/clase1)
-
-
-[Video de la clase del 16 Diciembre](https://www.youtube.com/watch?v=F59DcDHForc)
-
-El resto de la teoría no lo dejo anotado, porque básicamente es lo que está de teoría en los *apuntes de nivelación*.
-
----
-
 En las carpetas se encontrará:
 
 
