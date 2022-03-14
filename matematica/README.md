@@ -18,12 +18,12 @@ En las carpetas se encontrará:
 
 [Matrices y determinantes](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/teoria_matrices_y_determinantes)
 
-## :book: Práctica
+
+## :book: Traabajos prácticos
 
 
 - [trabajo practico 1 - parte 1](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/tp1_parte1)
 
-- [trabajo practico 1](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/tp1)
 
 - [trabajo practico 2 - parte 1](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/tp2_parte1)
 
