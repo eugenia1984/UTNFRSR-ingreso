@@ -9,6 +9,8 @@ Temas:
 
 - 3-Pseudocodigo 
 
+- 4-Estructuras secuenciales
+
 ---
 
 ## :star: 1 - Diagrama de flujo
@@ -82,5 +84,91 @@ Es la representación narrativa de los pasos que debe seguir un algoritmo para d
 El pseudocodigo utiliza palabras que indican el proceso a realizar.
 
 [ejercicio 3 en PseInt en pseudocodigo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo3/ejercicio3.psc)
+
+
+En pseudocodigo si hay que poner el punto y coma al final de cada sentencia.
+
+---
+
+## :star: 4 - Estructuras secuenciales
+
+La estructura secuencial es aquella en la que una acción sigue a otra en secuencia.
+
+Las tareas se suceden de tal modo que la salida de una es la entrada de la siguiente y así sucesivamente hasta el fin del proceso.
+
+Una estructura secuencia se representa de la siguiente forma:
+
+En pseudocódigo:
+```
+Inicio
+  Accion1
+  Accion2
+  Accion3
+Fin
+```
+
+En diagrama de flujo:
+```
+   Inicio
+     |
+     v
+   Accion1
+     |
+     v
+  Accion2
+     |
+     v
+  Accion3
+     |
+     v
+    Fin
+```
+
+En diagrama N-S
+
+| Inicio |
+| ------ |
+| Accion1 |
+| Accion2 |
+| Accion 3 |
+| Fin |
+
+
+**inicio** es la **entrada
+
+Accion1, Accion2 y Accion3 son el **proceso**
+
+**fin** es la **salida**
+
+---
+
+Volvemos al ejercicio 1 de la guia que pide:
+
+Calcular la cantidad de segundos que están incluidos en el número de horas, minutos y segundos ingresados por el usuario.
+
+Como la palabra **segundos** es un apalabra reservada de PseInt usamos **segundosIngresados**, también se podría usar **seg**.
+
+[ejercicio 4 en PseInt en pseudocodigo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo3/ejercicio4.psc)
+
+```
+Proceso Ejercicio4
+	Definir horas, minutos, segundosIngresados como Entero;
+	Definir horas_seg, minutos_seg, total_seg Como Entero;
+	
+	Escribir"Ingrese las horas: ";
+	Leer horas;
+	Escribir"Ingrese los minutos: ";
+	Leer minutos;
+	Escribir"Ingrese los segundos: ";
+	Leer segundosIngresados;
+	
+	// Clacular el equivalente en segundos
+	horas_seg <- horas * 60 * 60;
+	minutos_seg <- minutos * 60;
+	total_seg <- horas_seg + minutos_seg + segundosIngresados;
+	
+	Escribir"LOs segundos equivalentes seon: ", total_seg;
+FinProceso
+```
 
 ---

@@ -81,6 +81,8 @@ Temas a ver:
 
 - 3-Pseudocodigo 
 
+- 4-Estructuras secuenciales
+
 [En la carpeta capitulo 3 esta todo desarrollado](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo3)
 
 ---
