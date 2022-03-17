@@ -1,6 +1,6 @@
-# Programacion
+# :book: Programacion
 
-## Clases :
+## :star: Clases :
 
 - [clase 1 : variables : declaración, asignación, lectura, escritura.](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase1)
 
@@ -28,13 +28,13 @@
 
 ---
 
-## Ejercicios
+## :star: Ejercicios
 
 - [guia con ejercicios](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/guia_con_ejercicios)
 
 ---
 
-## Teoría
+## :star: Teoría
 
 ### Capítulo 1: elementos de entorno de algoritmos y programación 
 
@@ -53,9 +53,7 @@ Temas a ver:
 [En la carpeta capitulo 1 esta todo desarrollado](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo1)
 
 
-### Capítulo 2 : Programación desde cero
-
-**Capitulo 2: Entidades Primitivas**
+### Capítulo 2 :  Entidades Primitivas
 
 - Punto 1: Descargar PSeInt
 
@@ -74,5 +72,18 @@ Temas a ver:
 - Punto 8: Ejercicios
 
 [En la carpeta capitulo 2 esta todo desarrollado](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo2)
+
+### Capítulo 3 : Representación de algoritmos
+
+- 1-Diagrama de flujo
+
+- 2-Diagrama estructurado N-S (Nassi-Schneiderman)
+
+- 3-Pseudocodigo 
+
+[En la carpeta capitulo 3 esta todo desarrollado](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo3)
+
+---
+
 
 
