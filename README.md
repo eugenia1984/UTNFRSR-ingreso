@@ -38,7 +38,7 @@ Acá voy a dejar todas las actividades del curso de ingreso a la **Tecnicatura U
 
 ---
 
-# :book:  Programación
+# :star:  Programación
 
 [Lo visto para PROGRAMACION](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion):
 
@@ -83,6 +83,7 @@ Acá voy a dejar todas las actividades del curso de ingreso a la **Tecnicatura U
 
 - [Capítulo 2 : Entidades primitivas](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo2) -> Temas: descargar PSeInt / identificadores (Constantes y variables) / tipos de Datos / operación de Asignación / entrada y Salida de información / operadores y Operandos / funciones Internas / ejercicios
 
+- [Capítulo 3 :  Representación de algoritmos](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo3) -> **Representacion de algortimos** : 1-Diagrama de flujo / 2-Diagrama estructurado N-S (Nassi-Schneiderman) / 3-Pseudocodigo 
 
 ---
 
