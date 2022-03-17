@@ -8,9 +8,9 @@ Proceso Capitulo4Ejercicio2
 	circunferenciaCirculo <- 0;
 	radio <- 0;
 	
-	Escribir,"Ingrese el radio, para calcular si área y circunferencia: ";
+	Escribir "Ingrese el radio, para calcular si área y circunferencia: ";
 	Leer radio;
 	areaCirculo <- PI* rc(radio);
 	circunferenciaCirculo <- 2 * PI * radio;
-	Escribir," El área del círculo es de : ", areaCirculo," y la circunferencia es de: ", circunferenciaCirculo;
+	Escribir " El área del círculo es de : ", areaCirculo," y la circunferencia es de: ", circunferenciaCirculo;
 FinProceso

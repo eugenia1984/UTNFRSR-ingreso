@@ -4,9 +4,9 @@ Proceso Capitulo2Ejericio2
 	Definir a, b Como Entero;
 	resultado <- verdadero;
 	//Como no tenia valores de a y de b los pido por teclado
-	Escribir"Ingresar un numero para poder asignarle valor a A: ";
+	Escribir "Ingresar un numero para poder asignarle valor a A: ";
 	Leer a;
-	Escribir"Ingresar un numero para poder asignarle valor a B: ";
+	Escribir "Ingresar un numero para poder asignarle valor a B: ";
 	Leer b;
 	
 	resultado <- ( (3 + 5 * 8) < 3 Y ( (-6/3 * 4) + 2 < 2))  O ( a > b);

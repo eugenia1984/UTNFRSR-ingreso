@@ -4,14 +4,14 @@
 //¿cuántas horas y cuantos minutos se tardara en revisar todas las evaluaciones?
 Proceso Capitulo4Ejercicio4
 	Definir evaluacionA, evaluacionB, evaluacionC, evaluacionesTotales, horas, minutos Como Entero;
-	Escribir,"Ingresa la cantidad de examenes A que tiene: ";
+	Escribir "Ingresa la cantidad de examenes A que tiene: ";
 	Leer evaluacionA;
-	Escribir,"Ingresa la cantidad de examenes B que tiene: ";
+	Escribir "Ingresa la cantidad de examenes B que tiene: ";
 	Leer evaluacionB;
-	Escribir,"Ingresa la cantidad de examenes C que tiene: ";
+	Escribir "Ingresa la cantidad de examenes C que tiene: ";
 	Leer evaluacionC;
 	evaluacionesTotales <- evaluacionA * 5  + evaluacionB * 8 + evaluacionC * 6;
 	horas <- trunc(evaluacionesTotales / 60);
 	minutos <- evaluacionesTotales  MOD 60;
-	Escribir,"En revisar todas las evaluaciones tardará: ",horas," hora(s) y ",minutos," minuto(s).";
+	Escribir "En revisar todas las evaluaciones tardará: ",horas," hora(s) y ",minutos," minuto(s).";
 FinProceso

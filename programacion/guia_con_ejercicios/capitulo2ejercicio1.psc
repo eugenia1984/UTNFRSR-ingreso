@@ -11,8 +11,8 @@ Proceso Capitulo2Ejericicio1
 	
 	x1 <- (-b + (raiz( (b ^ 2) - 4 * a * c))) / 2 * a;
 	x2 <- (-b - (raiz( (b ^ 2) - 4 * a * c))) / 2 * a;
-	
-	Escribir"El resultado de : (-b + (raiz(b ^ 2 - 4 * a * c))) / 2 * a, es: ", x1;
-	Escribir"El resultado de : (-b - (raiz(b ^ 2 - 4 * a * c))) / 2 * a, es: ", x2;
+	// Hay que ver que condiciones se pueden agregar para no tener el caso de la raiz de un numero negativo, que seria un numero imaginario y PseInt solo tiene numeros reales
+	Escribir "El resultado de : (-b + (raiz(b ^ 2 - 4 * a * c))) / 2 * a, es: ", x1;
+	Escribir "El resultado de : (-b - (raiz(b ^ 2 - 4 * a * c))) / 2 * a, es: ", x2;
 	
 FinProceso
