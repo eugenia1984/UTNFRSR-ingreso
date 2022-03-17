@@ -22,6 +22,10 @@
 
 - [clase 10: matrices](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase10)
 
+- [clase 11: matrices](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase11)
+
+- [clase 12: modularidad](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase12_modularidad)
+
 ---
 
 ## Ejercicios

@@ -6,11 +6,11 @@ Acá voy a dejar todas las actividades del curso de ingreso a la **Tecnicatura U
 
 ---
 
-# ¿ Qué hay ?
+### ¿ Qué hay ?
 
 
 
-## :star: Matemáticas
+# :star: Matemáticas
 
 :book:  [Lo visto para MATEMATICA](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica)
 
@@ -29,27 +29,34 @@ Acá voy a dejar todas las actividades del curso de ingreso a la **Tecnicatura U
 
 - [trabajo practico 2 - parte 1](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/tp2_parte1)
 
+
 - [trabajo practico 2](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/tp2)
+
 
 - [trabajo practico 3 - parte 1](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/matematica/tp3_parte1)
 
+
 ---
 
-## :book:  [Lo visto para PROGRAMACION](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion):
+# :book:  Programación
 
-- clase 1 : variables : declaración, asignación, lectura, escritura. [ver carpeta](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase1)
+[Lo visto para PROGRAMACION](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion):
 
-- clase 2 : elementos de entorno de algoritmo y programación.  [ver carpeta](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase2)
 
-- clase 3: identificadores : variables y constantes. También está lo que se vio en la clase con el profesor Ariel Betancud. [ver carpeta](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase3)
+- [clase 1 : variables : declaración, asignación, lectura, escritura.](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase1)
 
-- clase 4:  condicionales. Diagrama de flujo y N-S [ver carpeta](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase4)
 
-- clase 5: condicionales múltiples. Diagrama de flujo y N-S [ver carpeta](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase5)
+- [clase 2 : elementos de entorno de algoritmo y programación.](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase2)
 
-- clase 6: Arreglos Unidimensionales [ver carpeta](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase6)
+- [clase 3: identificadores : variables y constantes. También está lo que se vio en la clase con el profesor Ariel Betancud.](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase3)
 
-- clase 7: Ordenamiento [ver carpeta](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase7)
+- [clase 4:  condicionales. Diagrama de flujo y N-S](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase4)
+
+- [clase 5: condicionales múltiples. Diagrama de flujo y N-S](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase5)
+
+- [clase 6: Arreglos Unidimensionales](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase6)
+
+- [clase 7: Ordenamiento](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase7)
 
 - [clase 8: busqueda secuencial y busqueda binaria](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase8)
 
@@ -57,11 +64,14 @@ Acá voy a dejar todas las actividades del curso de ingreso a la **Tecnicatura U
 
 - [clase 10: matrices](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase10)
 
+- [clase 11: matrices](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase11)
+
+- [clase 12: modularidad](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase12_modularidad)
 
 
 ## :star: Ejercicios prácticos
 
-- [guia con ejercicios](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/guia_con_ejercicios)
+- [guia con ejercicios prácticos](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/guia_con_ejercicios)
 
 
 
