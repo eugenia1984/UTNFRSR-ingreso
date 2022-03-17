@@ -73,4 +73,14 @@ Tampoco es necesario el punto y coma.
 
 ## :star: 3 - Pseudocodigo 
 
+#### ¿ Qué es pseudocodigo ?
+
+Mexcla de lenguaje de programación y español que se emplea, dentro de la programación estructurada, apra realizar e diseño de un programa.
+
+Es la representación narrativa de los pasos que debe seguir un algoritmo para dar solución a un problema determinado.
+
+El pseudocodigo utiliza palabras que indican el proceso a realizar.
+
+[ejercicio 3 en PseInt en pseudocodigo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo3/ejercicio3.psc)
+
 ---
