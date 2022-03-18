@@ -31,7 +31,7 @@ Proceso Capitulo11Ejercicio13
 		Escribir"La matriz: ";
 		Para fila <- 0 Hasta 2 Con Paso 1 Hacer
 			Para columna <- 0 Hasta 2 Con Paso 1 Hacer
-				Escribir Sin Saltar matriz[fila, columna];
+				Escribir Sin Saltar matriz[fila, columna], " ";
 			FinPara
 			Escribir" ";
 		FinPara
