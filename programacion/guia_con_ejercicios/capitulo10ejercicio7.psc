@@ -32,5 +32,5 @@ Proceso Capitulo10Ejercicio7
 	
 	frase <- frase2;
 	
-	Escribir "La frase ingresada con el primer caracter de caa palabra en mayúscula es :",frase;
+	Escribir "La frase ingresada con el primer caracter de cada palabra en mayúscula es : ",frase;
 FinProceso

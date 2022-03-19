@@ -14,20 +14,22 @@ Proceso Capitulo7Ejercicio4
 	Para i <- 0 Hasta n_elementos-1 Con Paso 1 Hacer
 		Escribir (i+1)," - Ingrese un número: ";
 		Leer num[i];
-	FinPara
 	
-	mayor <- num[0];
-	menor <- num[0];
-	
-	Para i <- 0 Hasta n_elementos-1 Con Paso 1 Hacer
-		Si num[i] > mayor Entonces
-			mayor <- num[i];
+		Si i = 0 Entonces
+			mayor <- num[0];
+			menor <- num[0];
 		SiNo
-			Si num[i] < menor Entonces
-				menor <- num[i];
+			Si num[i] > mayor Entonces
+				mayor <- num[i];
+			SiNo
+				Si num[i] < menor Entonces
+					menor <- num[i];
+				FinSi
 			FinSi
 		FinSi
 	FinPara
+	
+	
 	
 	Escribir "El número mayor es: ", mayor;
 	Escribir "EL número menor es: ", menor;

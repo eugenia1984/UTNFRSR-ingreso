@@ -1,7 +1,7 @@
 // Hacer un algoritmo que llene una matriz de 3 x 4
 // Sumar las columnas e imprimir que columna tuvo la maxima y la suma de esa columna
-// Para las columnas en la matriz M[i,j]  tengo columna1[i,1] columna2[i,2] columna3[i,3] 
-// Para las filas en la matriz M[i,j]  tengo fila1[1,j] fila2[2,j]  fila[3,j]  fila4[4,j]
+// Para las columnas en la matriz M[i,j]  tengo columna1[i,0] columna2[i,1] columna3[i,2]  columna4[i,3]
+// Para las filas en la matriz M[i,j]  tengo fila1[0,j] fila2[1,j]  fila[2,j]  
 Proceso Capitulo11Ejercicio4
 	Definir matriz, i, j, mayor, sumaColumnas, posicionColumna Como Enteros;
 	Dimension matriz[3,4];

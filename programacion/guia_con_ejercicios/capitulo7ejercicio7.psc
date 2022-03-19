@@ -2,10 +2,10 @@
 // una posicion hacia abajo, el 1ro pasa a ser el 2do, el 2do pasa a ser el 3ro
 // y asi sucesivamente. El último para a ser el 1ro.
 Proceso Capitulo7Ejercicio7
-	Definir num, ultimo, i COmo Entero;
-	Dimension num[5];
+	Definir num, ultimo, i Como Entero;
+	Dimension num[6];
 	
-	Para i <- 0 Hasta 4 Con Paso 1 Hacer
+	Para i <- 0 Hasta 5 Con Paso 1 Hacer
 		Escribir (i+1)," - Ingrese un número: ";
 		Leer num[i];
 	FinPara
