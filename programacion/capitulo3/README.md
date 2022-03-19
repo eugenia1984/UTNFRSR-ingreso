@@ -209,3 +209,21 @@ Proceso Ejercicio6
 FinProceso
 ```
 ---
+
+Continuamos con el 4to ejercicio.
+
+Consigna: un profesor prepara tres cuestionarios para una evaluación final: A, B y C. Se sabe que se tarda 5 minutos en revisar el cuestionario A, 8 en revisar el cuestionario B y 6 minutos en el C. La cantidad de examenes de cada tipo se entran por teclado ¿ Cuántas horas y cuántos minutos se tardará en revisar todas las evaluaciones? 
+
+[Aca esta la resolucion ejercicio 4 de la practica en PseInt en pseudocodigo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo3/ejercicio7.psc)
+
+
+---
+
+Continuamos con el 5to ejercicio.
+
+Consigna: Una tienda ofrece un descuento del 15% sobre el total de la compra y un cliente desea saber cuánto deberá pagar finalmente por su compra.
+
+[Aca esta la resolucion ejercicio 5 de la practica en PseInt en pseudocodigo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo3/ejercicio8.psc)
+
+---
+
