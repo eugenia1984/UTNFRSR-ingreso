@@ -167,8 +167,45 @@ Proceso Ejercicio4
 	minutos_seg <- minutos * 60;
 	total_seg <- horas_seg + minutos_seg + segundosIngresados;
 	
-	Escribir"LOs segundos equivalentes seon: ", total_seg;
+	Escribir"Los segundos equivalentes seon: ", total_seg;
 FinProceso
 ```
 
+---
+
+Hacemos el ejercico 2 de la practica
+
+Consigna: hacer un programa para ingresar el radio de un circulo y se reporte su área y la longitud de la circunferencia.
+
+
+[Aca esta la resolucion ejercicio 2 de la practica en PseInt en pseudocodigo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo3/ejercicio5.psc)
+
+---
+
+Hacemos el ejercicio 3 de la practica
+
+Consigna: un maestro desea saber que porcentaje de hombres y que porcentaje de mujeres hay en un grupo de estudiantes.
+
+[Aca esta la resolucion ejercicio 3 de la practica en PseInt en pseudocodigo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo3/ejercicio6.psc)
+
+
+```
+Proceso Ejercicio6
+	Definir numeroHombres, numeroMujeres, totalEstudiantes Como Entero;
+	Definir porcentajeHombres, porcentajeMujeres Como Real;
+	
+	Escribir "Ingrese el numero de hombres: ";
+	Leer numeroHombres;
+	Escribir "Ingrese el numero de mujeres: ";
+	Leer numeroMujeres;
+	
+	totalEstudiantes <- numeroHombres + numeroMujeres;
+	porcentajeHombres <- numeroHombres/totalEstudiantes * 100;
+	porcentajeMujeres <- numeroMujeres/totalEstudiantes * 100;
+	
+	Escribir "El porcentaje de hombres es de : ", porcentajeHombres," %.";
+	Escribir "El porcentaje de mujeres es de : ", porcentajeMujeres," %.";	
+	
+FinProceso
+```
 ---
