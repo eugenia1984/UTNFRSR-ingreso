@@ -1,5 +1,13 @@
 # :book: Modularidad, Funciones y Procedimientos
 
+Temas:
+
+- modularidad
+
+- funciones
+
+- procedimientos
+
 ---
 
 ## :star: Introducción a los Subprogramas o SubAlgoritmos
@@ -38,7 +46,7 @@ tipos de ---|
 ---
 
 
-## ¿ Qué es una función ?
+## :star: ¿ Qué es una función ?
 
 Una función es programación, es un subprograma o subalgoritmo que toma uno o más valores (argumentos) y devuelve un resultado (valor de la función para los argumentos dados).
 
@@ -118,5 +126,54 @@ FinProceso
 Cuando **invoco** a la función tengo **argumentos** -> por ejemplo:  ```sumar(num1, num2)``` aca num1 y num2 son argumentos.
 
 Dentro de la **función** tengo **parámetros** -> por ejemplo: ```Funcion suma <- sumar(num1, num2) ``` num1 y num2 son parámetros.
+
+---
+
+## :star: ¿Qué es un procedimiento ?
+
+Un procedimiento es un subprograma que ejecuta una determianda tarea, pero que tras ejecutar esa tarea no tiene ningún valor asociado al nombre del procedimiento, como en el caso de las funciones.
+
+-> no devuelven un valor específico. Nos envía una referencia.
+
+- Para los **procedimientos** vamos a utilizar un **subproceso** ó **subalgoritmo**
+
+- La sintaxis de un procedimiento:
+
+```
+Subproceso mitad(num)
+   Definir m Como Real;
+   m <- num / 2;
+Escribir "La mitad es: ", m;
+FinSubproceso
+```
+
+**mitad** -> nombre dle procedimeinto
+
+**num** -> parametro(s)
+
+**Definir m Como Real;** -> tipo
+
+**Escribir "La mitad es: ", m;** -> muestr la variable donde se realizo la operación.
+
+- Recordar que las **funciones** y los **procedimeintos** van a necesitar trabajar con los mismos tipos de *argumentos* y *parametros*.
+
+
+-> [Este es el link al archivo de este ejemplo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase12_modularidad/ejemplo3.psc)
+
+```
+Subproceso mitad(num)
+	Definir m Como Real;
+	m <- num / 2;
+	Escribir "La mitad es: ", m;
+FinSubproceso
+
+
+Proceso Ejemplo3
+	Definir num Como Real;
+	Escribir Sin Saltar "Ingrese un numero: ";
+	Leer num;
+        mitad(num);  // invoco al subproceso
+FinProceso
+```
 
 ---
