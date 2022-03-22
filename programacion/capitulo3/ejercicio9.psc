@@ -11,5 +11,14 @@ Proceso Ejercicio9
 	
 	Escribir "Ingrese las tres notas de los parciales: ";
 	Leer parcial1, parcial2, parcial3;
-	
+	promedioParciales <- (parcial1 + parcial2 + parcial3) / 3;
+	notaParcial <- promedioParciales * 0.55;
+	Escribir "Ingrese la nota del examen final: ";
+	Leer examenFinal;
+	notaExamen <- examenFinal * 0.33;
+	Escribir "Ingrese la nota del trabajo final: ";
+	Leer notaFinalTrabajo;
+	notaTrabajo <- notaFinalTrabajo * 0.15;
+	notaFinal <- notaParcial + notaExamen + notaTrabajo;
+	Escribir "La calificación final es: ", notaFinal;
 FinProceso

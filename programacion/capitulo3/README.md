@@ -225,5 +225,30 @@ Consigna: Una tienda ofrece un descuento del 15% sobre el total de la compra y u
 
 [Aca esta la resolucion ejercicio 5 de la practica en PseInt en pseudocodigo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo3/ejercicio8.psc)
 
+```
+Proceso Ejercicio8
+	Definir precio, descuento, precioFinal Como Real;
+	Escribir "Ingrese precio a pagar: ";
+	Leer precio;
+	descuento <- precio * 0.15;
+	precioFinal <- precio - descuento;
+	Escribir "El precio a pagar es de : $ ", precioFinal,".";
+FinProceso
+```
+
+---
+
+Continuamos con el 6to ejercicio
+
+Consigna: Un alumno desea saber cuál será su calificación final  en la materia de Algoritmos. Dicha calificación se compone de los siguienes porcentajes:
+
+55 % del promedio de sus 3 calificaciones parciales
+
+30 % de la calificación del examen final
+
+15 % de la calificación de un trabajo final
+
+[Aca esta la resolucion ejercicio 6 de la practica en PseInt en pseudocodigo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo3/ejercicio9.psc)
+
 ---
 
