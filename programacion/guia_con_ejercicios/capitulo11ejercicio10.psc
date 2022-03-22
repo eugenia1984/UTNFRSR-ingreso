@@ -1,5 +1,6 @@
 // Llenando una matriz de numeros aleatorios
-// Hacer una matriz preguntando al usuario el numero de filas y columnasTotales. Llenar con numeros aleatorios. Copiar el contenido a otra matriz y por ultimo mostrar en pantalla
+// Hacer una matriz preguntando al usuario el numero de filas y columnasTotales. 
+//Llenar con numeros aleatorios. Copiar el contenido a otra matriz y por ultimo mostrar en pantalla
 Proceso Capitulo11Ejercicio10
 	Definir matriz1,matriz2,fila,columna, filasTotales, columnasTotales Como Entero;
 	Dimension matriz1[100,100];

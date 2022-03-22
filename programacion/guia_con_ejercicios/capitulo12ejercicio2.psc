@@ -21,7 +21,7 @@ Proceso Capitulo12Ejercicio2
 			3:
 				Escribir"Hasta la proxima!";
 			De Otro Modo:
-				Escribir"Eligio la iocion incorrecta";
+				Escribir"Eligio la opcion incorrecta";
 		FinSegun
 	FinMientras
 	
@@ -38,7 +38,7 @@ FinFuncion
 
 Funcion  raizCuadrada <- calcularRaiz(numeroIngresado)
 	Definir raizCuadrada Como Real;
-	Escribir "Ingrese un numero: ";
+	Escribir "Ingrese un numero positivo: ";
 	Leer numeroIngresado;
 	raizCuadrada <- rc(numeroIngresado);
 FinFuncion
