@@ -37,3 +37,86 @@ tipos de ---|
 
 ---
 
+
+## ¿ Qué es una función ?
+
+Una función es programación, es un subprograma o subalgoritmo que toma uno o más valores (argumentos) y devuelve un resultado (valor de la función para los argumentos dados).
+
+
+Sintaxis de una función:
+
+```
+Funcion suma <- sumar(num1, num2)
+   Definir suma Como Entero;
+   suma <- num1 + num2;
+FinFuncion
+```
+
+**suma** -> nombre del retorno
+
+**sumar** -> nombre de la función
+
+**num1, num2** -> parametros
+
+**Definir suma Como Entero;** -> tipo de retorno
+
+---
+
+## 1er ejemplo en Pseudocodigo
+
+En este caso voy a guardar el valor que me retorne la función **suma** en la variable **resultado**.
+
+```
+// Modularidad
+// Función para sumar dos numeros
+Funcion suma <- sumar(num1, num2)  // num1 y num2 son parametros
+	Definir suma Como Entero;
+	suma <- num1 + num2;
+FinFuncion
+
+Proceso Modularidad
+	Definir num1, num2, resultado Como Enteros;
+	Escribir Sin Saltar "Ingrese un número: ";
+	Leer num1;
+	Escribir Sin Saltar "Ingrese otro número: ";
+	Leer num2;
+	resultado <- sumar(num1, num2);  // num1 y num2 son argumentos
+	Escribir "La suma de ",num1," con ",num2," es: ", resultado;
+FinProceso
+````
+
+-> [Este es el link al archivo del primer ejemplo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase12_modularidad/ejemplo1.psc)
+
+---
+
+## 2do ejemplo en Pseudcodigo
+
+En este caso directamente invoco a la función en el Proceso, para que me muestre el resultado.
+
+```
+// Modularidad
+// Función para sumar dos numeros
+Funcion suma <- sumar(num1, num2)  // num1 y num2 son parametros
+	Definir suma Como Entero;
+	suma <- num1 + num2;
+FinFuncion
+
+Proceso Modularidad
+	Definir num1, num2 Como Enteros;
+	Escribir Sin Saltar "Ingrese un número: ";
+	Leer num1;
+	Escribir Sin Saltar "Ingrese otro número: ";
+	Leer num2;
+	Escribir "La suma de ",num1," con ",num2," es: ", sumar(num1, num2);
+FinProceso
+```
+
+-> [Este es el link al archivo del segundo ejemplo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase12_modularidad/ejemplo2.psc)
+
+---
+
+Cuando **invoco** a la función tengo **argumentos** -> por ejemplo:  ```sumar(num1, num2)``` aca num1 y num2 son argumentos.
+
+Dentro de la **función** tengo **parámetros** -> por ejemplo: ```Funcion suma <- sumar(num1, num2) ``` num1 y num2 son parámetros.
+
+---
