@@ -177,3 +177,12 @@ FinProceso
 ```
 
 ---
+
+Falta:
+
+https://www.youtube.com/watch?v=v_tRetxSZG0&list=PLeO2T8e-S41gCr26p52ajB2kflCPd_132&index=4
+
+https://www.youtube.com/watch?v=yrFZk9NUGuA&list=PLeO2T8e-S41gCr26p52ajB2kflCPd_132&index=5
+
+
+---
