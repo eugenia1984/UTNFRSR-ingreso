@@ -178,11 +178,62 @@ FinProceso
 
 ---
 
-Falta:
+## :star: Parámetros por valor y por referencia
 
-https://www.youtube.com/watch?v=v_tRetxSZG0&list=PLeO2T8e-S41gCr26p52ajB2kflCPd_132&index=4
+**Parámetros por valor**: en este tipo de paràmetro auqnue durante el procedimiento su valor cambie el valor no será asignado a la variable del programa principal. Es decir, lo que sucede dentro de la función, queda dentro de la función y solo devuelve un valor; pero la variable dentro del programa principal no cambia el valor. La función devuelve un resultado.
 
-https://www.youtube.com/watch?v=yrFZk9NUGuA&list=PLeO2T8e-S41gCr26p52ajB2kflCPd_132&index=5
+
+**Parámetro por referencia**: en este tipo de parámetro cualquier cambio que sufra la variable en el subprograma, la variable del programa principal también lo sufrirá, de esta manera podemos enviar informacion modificarla y enviar resultados al programa principal. 
+
+-> los PARAMEROS POR REFERENCIA SUFREN CAMBIOS y se modifica el valor de la variable en el programa principal
+
+---
+
+
+-> [Este es el link al archivo para parametro por valor](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase12_modularidad/ejemplo4.psc)
+
+
+```
+// Parametros por valor
+Funcion aumento <- aumentar(num) // Parametros
+	Definir aumento Como Entero;  // debe ser el mismo tipo de dato que al algoritmo principal
+	aumento <- num + 10;
+FinFuncion
+
+Proceso Ejemplo4
+	DEfinir num Como Entero;
+	Escribir Sin Saltar "Ingrese un numero: ";
+	Leer num;
+	
+	Escribir "El aumento es: ", aumentar(num);  // Argumento
+FinProceso
+```
+
+---
+
+
+-> [Este es el link al archivo para parametro por referencia](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase12_modularidad/ejemplo5.psc)
+
+
+```
+// Parametros por valor
+Funcion aumento <- aumentar(num Por Valor) // Parametro por valor
+	Definir aumento Como Entero;
+	aumento <- num + 10;
+FinFuncion
+
+// Parametros por referencia
+SubProceso pedirDatos(num Por Referencia) // Parametro por referencia
+	Escribir Sin Saltar "Ingrese un numero: ";
+	Leer num;
+FinSubProceso
+
+Proceso Ejemplo5
+	Definir num Como Entero;
+	pedirDatos(num);  // Argumento
+	Escribir "El aumento es: ", aumentar(num);  // Argumento
+FinProceso
+```
 
 
 ---
