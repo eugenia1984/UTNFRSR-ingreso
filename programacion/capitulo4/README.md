@@ -108,8 +108,75 @@ Si no cumple la condición -> ejecuta la accion2
 
 ###  Condicionales Múltiples
 
+
+Sintaxis:
+
+```
+Segun <condicion> Entonces
+  Opcion1:
+     Accion(es)1
+  Opcion2:
+     Accion(es)2
+  De otro modo:
+     Accion(es)3
+FinSegun
+```
+
+Si cumple la opcion1 -> ejecuta la acción1
+
+Si cumple la opcion2 -> ejecuta la accion2
+
+Si no cumple ni opcion1 ni opcion2 -> ejecuta la accion3, en de otro modo.
+
+
+```
+     -------CONDICION ------
+     |          |          |
+  opcion1    opcion2    opcionN
+     |          |          |
+     v          v          v
+ Accion1      Accion2    AccionN
+
+```
+
+
+```
+|----------------------------------------|
+|                 Condicion              |
+| 1 | 2 | ... | n \          /  Otros    |
+|----------------------------------------|
+|   |    |    |        |                 |
+|A1 | A2 | .. | An     |    Accion2      |
+|   |    |    |        |                 |
+------------------------------------------
+```
+
 ---
 
 
 
 [En la carpeta capitulo 4 esta todo desarrollado](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo4)
+
+---
+
+## Ejemplos con ejercicios
+
+### Ejercicio 1 :
+
+Ingrese un número entero y reportar si es par o impar (pseudocodigo)
+
+```
+Proceso Ejercicio1
+	Definir num Como Entero;
+	Escribir "Ingrese un numero: ";
+	Leer num;
+	Si num mod 2 = 0 Entonces
+		Escribir num," es numero par.";
+	SiNo
+		Escribir num," es numero impar.";
+	FinSi
+FinProceso
+```
+
+[Aca se ve en codigo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo4/ejericico1.psc)
+---
