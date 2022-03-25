@@ -24,7 +24,7 @@
 
 - [clase 11: matrices](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase11)
 
-- [clase 12: modularidad](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase12_modularidad)
+- [clase 12: modularidad](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/clase12_modularidad) -> Introducción a los Subprogramas o SubAlgoritmos / ¿ Qué es una función ? /  ¿Qué es un procedimiento ? /  Parámetros por valor /  Parámetros por referencia
 
 ---
 

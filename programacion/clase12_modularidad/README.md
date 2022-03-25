@@ -2,11 +2,15 @@
 
 Temas:
 
-- modularidad
+- Introducción a los Subprogramas o SubAlgoritmos
 
-- funciones
+- ¿ Qué es una función ?
 
-- procedimientos
+- ¿Qué es un procedimiento ?
+
+- Parámetros por valor 
+
+- Parámetros por referencia
 
 ---
 
@@ -147,7 +151,7 @@ Escribir "La mitad es: ", m;
 FinSubproceso
 ```
 
-**mitad** -> nombre dle procedimeinto
+**mitad** -> nombre del procedimeinto
 
 **num** -> parametro(s)
 
