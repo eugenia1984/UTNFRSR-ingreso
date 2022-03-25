@@ -229,4 +229,20 @@ Elaborar un programa que me muestre el significado de aniversario de cada decada
 
 [Aca se ve en pseudocodigo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo4/ejericico4.psc)
 
+
+### Ejercicio 5:
+
+Hacer un programa que tenga un menú con las siguientes opciones:
+
+Opcion 1: elevar un numero a una pontecia x
+
+Opcion 2: sacar la raiz cuadrada de un numero
+
+Opcion 3: salir
+
+(en diagramana N-S)
+
+[Aca se ve en diagrama N-S](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo4/ejemplo5.png)
+
+[Aca se ve en pseudocodigo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo4/ejericico5.psc)
 ---
