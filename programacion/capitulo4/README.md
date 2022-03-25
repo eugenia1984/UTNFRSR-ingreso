@@ -178,5 +178,15 @@ Proceso Ejercicio1
 FinProceso
 ```
 
-[Aca se ve en codigo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo4/ejericico1.psc)
+[Aca se ve en pseudocodigo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo4/ejericico1.psc)
+
+
+### Ejercicio 2 :
+
+Dados tres numeros determinar cual es mayor.
+
+[Aca se ve en pseudocodigo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo4/ejericico2.psc)
+
+[Aca se ve en diagrama N-N](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo4/ejemplo2.png)
+
 ---
