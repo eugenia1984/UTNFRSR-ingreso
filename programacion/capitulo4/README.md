@@ -187,7 +187,7 @@ Dados tres numeros determinar cual es mayor.
 
 [Aca se ve en pseudocodigo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo4/ejericico2.psc)
 
-[Aca se ve en diagrama N-N](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo4/ejemplo2.png)
+[Aca se ve en diagrama N-S](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo4/ejemplo2.png)
 
 
 ### Ejercicio 3 - Condicional múltiple :
@@ -219,5 +219,14 @@ FinProceso
 
 
 [Aca se ve en pseudocodigo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo4/ejericico3.psc)
+
+
+### Ejercicio 4 :
+
+Elaborar un programa que me muestre el significado de aniversario de cada decada hasta los 60 (diagrama de flujo)
+
+[Aca se ve en diagrama de flujo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo4/ejemplo4.png)
+
+[Aca se ve en pseudocodigo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo4/ejericico4.psc)
 
 ---
