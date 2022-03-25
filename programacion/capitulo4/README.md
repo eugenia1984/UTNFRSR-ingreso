@@ -161,7 +161,7 @@ Si no cumple ni opcion1 ni opcion2 -> ejecuta la accion3, en de otro modo.
 
 ## Ejemplos con ejercicios
 
-### Ejercicio 1 :
+### Ejercicio 1 (condicional doble):
 
 Ingrese un número entero y reportar si es par o impar (pseudocodigo)
 
@@ -181,12 +181,43 @@ FinProceso
 [Aca se ve en pseudocodigo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo4/ejericico1.psc)
 
 
-### Ejercicio 2 :
+### Ejercicio 2 (condicional doble):
 
 Dados tres numeros determinar cual es mayor.
 
 [Aca se ve en pseudocodigo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo4/ejericico2.psc)
 
 [Aca se ve en diagrama N-N](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo4/ejemplo2.png)
+
+
+### Ejercicio 3 - Condicional múltiple :
+
+Elaborar un programa que muestre los dias de las semanas cuando ingrese los siete primeros numeros (pseudocodigo)
+
+```
+// Elaborar un programa que muestre los dias de las semanas 
+// cuando ingrese los siete primeros numeros (pseudocodigo)
+Proceso Ejercicio3
+	DEfinir num Como Entero;
+	
+	Escribir "Ingrese un numero del dia de la semana (1-7): ";
+	Leer num;
+	
+	Segun num Hacer
+		1: Escribir "Lunes";
+		2: Escribir "Martes";
+		3: Escribir "Miércoles";
+		4: Escribir "Jueves";
+		5: Escribir "Viernes";
+		6: Escribir "Sabado";
+		7: Escribir "Domingo";	
+		De Otro Modo:
+			Escribir "Error, no existe día para ese número.";
+	FinSegun
+FinProceso
+```
+
+
+[Aca se ve en pseudocodigo](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo4/ejericico3.psc)
 
 ---
