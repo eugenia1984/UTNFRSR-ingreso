@@ -85,6 +85,9 @@ Acá voy a dejar todas las actividades del curso de ingreso a la **Tecnicatura U
 
 - [Capítulo 3 :  Representación de algoritmos](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo3) -> **Representacion de algortimos** : 1-Diagrama de flujo / 2-Diagrama estructurado N-S (Nassi-Schneiderman) / 3-Pseudocodigo / 4-Estructuras secuenciales
 
+- [Capitulo 4 : Estructuras Condicionales](https://github.com/eugenia1984/UTNFRSR-ingreso/tree/main/programacion/capitulo4) -> 1-condicionales / 2-simples / 3-Dobles / 4-Múltiples
+
+
 ---
 
 ## Stack teconológico 🛠️
