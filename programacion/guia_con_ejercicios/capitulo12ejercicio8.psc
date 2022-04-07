@@ -16,13 +16,13 @@ SubProceso retorno <- fibonacci(num)
 	FinSi
 FinSubProceso
 
-SubProceso mostrarSerie(nElementos)
+SubProceso mostrarSerie(nElementos)  // Parametro
 	Definir i Como Entero;
 	Escribir"";
 	Escribir"La serie fibonacci es: ";
 	Escribir Sin Saltar "0 ";
 	Para i<-1 Hasta nElementos-1 Con Paso 1 Hacer
-		Escribir sin Saltar fibonacci(i), " ";
+		Escribir sin Saltar fibonacci(i), " ";  // Argumento
 	FinPara
 	Escribir"";
 FinSubProceso
@@ -30,7 +30,7 @@ FinSubProceso
 Proceso Capitulo12Ejercicio8
 	Definir nElementos Como Entero;
 	//Primero pedimos los elementos
-	pedirDatos(nElementos);
+	pedirDatos(nElementos);  // Argumento
 	//Ahora, mostramos la serie
-	mostrarSerie(nElementos);
+	mostrarSerie(nElementos);  // Argumento
 FinProceso
